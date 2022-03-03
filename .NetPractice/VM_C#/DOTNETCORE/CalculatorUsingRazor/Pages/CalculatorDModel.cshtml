@@ -1,0 +1,21 @@
+﻿@page
+@model CalculatorUsingRazor.Pages.CalculatorDModelModel
+@{
+}
+@Model.Result
+
+
+
+<form method="post">
+
+    <label>Enter First Number</label>
+    <input asp-for="Num.NumberOne" />
+    <label>Enter Password</label>
+    <input asp-for="Num.NUmberTwo" />
+    <input type="submit" value="Add" asp-page-handler="Addition" />
+    <input type="submit" value="Subtract" asp-page-handler="Subtraction" />
+    <input type="submit" value="Multiply" asp-page-handler="Multiplication" />
+    <input type="submit" value="Divide" asp-page-handler="Division" />
+
+
+</form>

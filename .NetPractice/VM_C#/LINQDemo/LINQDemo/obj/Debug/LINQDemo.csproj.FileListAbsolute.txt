@@ -1,0 +1,7 @@
+C:\Users\dipalik\Music\VM_C#\LINQDemo\LINQDemo\bin\Debug\LINQDemo.exe.config
+C:\Users\dipalik\Music\VM_C#\LINQDemo\LINQDemo\bin\Debug\LINQDemo.exe
+C:\Users\dipalik\Music\VM_C#\LINQDemo\LINQDemo\bin\Debug\LINQDemo.pdb
+C:\Users\dipalik\Music\VM_C#\LINQDemo\LINQDemo\obj\Debug\LINQDemo.csprojAssemblyReference.cache
+C:\Users\dipalik\Music\VM_C#\LINQDemo\LINQDemo\obj\Debug\LINQDemo.csproj.CoreCompileInputs.cache
+C:\Users\dipalik\Music\VM_C#\LINQDemo\LINQDemo\obj\Debug\LINQDemo.exe
+C:\Users\dipalik\Music\VM_C#\LINQDemo\LINQDemo\obj\Debug\LINQDemo.pdb

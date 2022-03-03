@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\AndroidPractice2\\NewSECOND\\android-workmanager-java\\android-workmanager-java\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_select.xml",
+        "source": "C:\\AndroidPractice2\\NewSECOND\\android-workmanager-java\\android-workmanager-java\\app\\src\\main\\res\\layout\\activity_select.xml"
+    },
+    {
+        "merged": "C:\\AndroidPractice2\\NewSECOND\\android-workmanager-java\\android-workmanager-java\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_blur.xml",
+        "source": "C:\\AndroidPractice2\\NewSECOND\\android-workmanager-java\\android-workmanager-java\\app\\src\\main\\res\\layout\\activity_blur.xml"
+    }
+]

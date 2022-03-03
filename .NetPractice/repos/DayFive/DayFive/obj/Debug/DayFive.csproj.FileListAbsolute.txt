@@ -1,0 +1,7 @@
+C:\Users\dipalik\source\repos\DayFive\DayFive\bin\Debug\DayFive.exe.config
+C:\Users\dipalik\source\repos\DayFive\DayFive\bin\Debug\DayFive.exe
+C:\Users\dipalik\source\repos\DayFive\DayFive\bin\Debug\DayFive.pdb
+C:\Users\dipalik\source\repos\DayFive\DayFive\obj\Debug\DayFive.csprojAssemblyReference.cache
+C:\Users\dipalik\source\repos\DayFive\DayFive\obj\Debug\DayFive.csproj.CoreCompileInputs.cache
+C:\Users\dipalik\source\repos\DayFive\DayFive\obj\Debug\DayFive.exe
+C:\Users\dipalik\source\repos\DayFive\DayFive\obj\Debug\DayFive.pdb

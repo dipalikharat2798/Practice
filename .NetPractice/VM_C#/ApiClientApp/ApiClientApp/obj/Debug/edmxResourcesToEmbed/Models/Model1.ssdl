@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VMDB2Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'VMDB2.dbo.Student' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="Marks" Type="int" />
+  </EntityType>
+  <EntityContainer Name="VMDB2ModelStoreContainer">
+    <EntitySet Name="Student" EntityType="Self.Student" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Student].[ID] AS [ID], 
+    [Student].[Name] AS [Name], 
+    [Student].[Marks] AS [Marks]
+    FROM [dbo].[Student] AS [Student]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

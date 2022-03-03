@@ -1,0 +1,9 @@
+C:\Users\dipalik\source\repos\PartsLimitedShared\bin\Debug\netstandard2.0\PartsLimitedShared.deps.json
+C:\Users\dipalik\source\repos\PartsLimitedShared\bin\Debug\netstandard2.0\PartsLimitedShared.dll
+C:\Users\dipalik\source\repos\PartsLimitedShared\bin\Debug\netstandard2.0\PartsLimitedShared.pdb
+C:\Users\dipalik\source\repos\PartsLimitedShared\obj\Debug\netstandard2.0\PartsLimitedShared.csprojAssemblyReference.cache
+C:\Users\dipalik\source\repos\PartsLimitedShared\obj\Debug\netstandard2.0\PartsLimitedShared.AssemblyInfoInputs.cache
+C:\Users\dipalik\source\repos\PartsLimitedShared\obj\Debug\netstandard2.0\PartsLimitedShared.AssemblyInfo.cs
+C:\Users\dipalik\source\repos\PartsLimitedShared\obj\Debug\netstandard2.0\PartsLimitedShared.csproj.CoreCompileInputs.cache
+C:\Users\dipalik\source\repos\PartsLimitedShared\obj\Debug\netstandard2.0\PartsLimitedShared.dll
+C:\Users\dipalik\source\repos\PartsLimitedShared\obj\Debug\netstandard2.0\PartsLimitedShared.pdb

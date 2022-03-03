@@ -1,0 +1,141 @@
+﻿
+@{
+    ViewBag.Title = "Index14";
+}
+
+<h2>Index14</h2>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Index</title>
+    <script src="@Url.Content("/Scripts/jquery-3.4.1.min.js")" type="text/javascript">
+    </script>
+
+    <script src="@Url.Content("/Scripts/jquery-ui-1.9.0.min.js")"></script>
+
+    <script type="text/javascript">
+        $(function () {
+
+            $("#theList tr:even").addClass("stripe1");
+            $("#theList tr:odd").addClass("stripe2");
+
+            $("#theList tr").hover(
+							function () {
+							    $(this).toggleClass("highlight");
+							},
+							function () {
+							    $(this).toggleClass("highlight");
+							}
+						);
+
+        });
+    </script>
+
+    <style type="text/css">
+        body {
+            font-family: Candara;
+            font-size: 16px;
+        }
+
+        #theList th, td {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            color: #000000;
+        }
+
+        #theList tr {
+            border: 1px solid gray;
+        }
+
+        #theList td {
+            width: 200px;
+            padding: 3px;
+        }
+
+        #theList th {
+            background-color: #D2E0E8;
+            color: #003366;
+        }
+
+        #theList {
+            border: 1pt solid gray;
+        }
+
+        .stripe1 {
+            background-color: #ff0000; /*yellow*/
+        }
+
+        .stripe2 {
+            background-color: #ffff00; /*red*/
+        }
+
+        .highlight {
+            background-color: orange;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Using jQuery to stripe and hover-highlight a table</h1>
+
+        <table id="theList">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Milk</td>
+                    <td>1.99</td>
+                </tr>
+                <tr>
+                    <td>Eggs</td>
+                    <td>2.29</td>
+                </tr>
+                <tr>
+                    <td>Butter</td>
+                    <td>3.49</td>
+                </tr>
+                <tr>
+                    <td>Bread</td>
+                    <td>0.99</td>
+                </tr>
+                <tr>
+                    <td>Pasta</td>
+                    <td>1.19</td>
+                </tr>
+                <tr>
+                    <td>Honey</td>
+                    <td>4.39</td>
+                </tr>
+                <tr>
+                    <td>Cookies</td>
+                    <td>2.99</td>
+                </tr>
+                <tr>
+                    <td>Apples</td>
+                    <td>0.59</td>
+                </tr>
+                <tr>
+                    <td>Sugar</td>
+                    <td>1.78</td>
+                </tr>
+                <tr>
+                    <td>Pepper</td>
+                    <td>1.56</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,7 @@
+C:\Users\dipalik\source\repos\PartsUnlimitedShared\PartsUnlimitedShared\bin\Debug\PartsUnlimitedShared.dll
+C:\Users\dipalik\source\repos\PartsUnlimitedShared\PartsUnlimitedShared\bin\Debug\PartsUnlimitedShared.pdb
+C:\Users\dipalik\source\repos\PartsUnlimitedShared\PartsUnlimitedShared\obj\Debug\PartsUnlimitedShared.csprojAssemblyReference.cache
+C:\Users\dipalik\source\repos\PartsUnlimitedShared\PartsUnlimitedShared\obj\Debug\PartsUnlimitedShared.csproj.CoreCompileInputs.cache
+C:\Users\dipalik\source\repos\PartsUnlimitedShared\PartsUnlimitedShared\obj\Debug\PartsUnlimitedShared.dll
+C:\Users\dipalik\source\repos\PartsUnlimitedShared\PartsUnlimitedShared\obj\Debug\PartsUnlimitedShared.pdb
+C:\Users\dipalik\source\repos\PartsUnlimitedShared\PartsUnlimitedShared\obj\Debug\PartsUnlimitedShared.csproj.CopyComplete

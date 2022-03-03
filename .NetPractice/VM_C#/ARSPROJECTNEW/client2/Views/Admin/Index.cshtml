@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<form id="form1">
+    <p>
+        <label for="Admin name">Enter Your Name</label>
+        <input type="text" id="Id" name="Id" />
+    </p>
+    <p>
+        <label for="Enter Password">Enter your password</label>
+        <input type="text" id="Password" name="Password" />
+    </p>
+
+    <p>
+        <input type="button" id="button1" value="Login" />
+        <span id="ResponseSpan"></span>
+    </p>
+
+</form>
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<!-- jquery code -->
+<script type="text/javascript">
+    $(function () {
+
+        $("#button1").click(
+            function () {
+
+                //ajax code
+                $.ajax({
+                    url: 'https://localhost:44353/api/LoginAdmin/' + $("#Id").val() + $("#Password").val(),
+                    data: {},
+                    type: "Get",
+                    success: function (response) {
+
+                        $("#ResponseSpan").html(response);
+                        alert("Welcome User")
+                    },
+                    error: function (jqXHR, textStatus, err) {
+                        $("#ResponseSpan").html(err);
+                    }
+                });
+
+            });
+
+    });
+</script>
+

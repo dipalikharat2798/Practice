@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/StyleSheet1.css" rel="stylesheet" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <header>
+        <h2>Cities</h2>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="~/Hello/Home">Heloo</a></li>
+                <li><a href="~/Hello/About">About</a></li>
+                <li><a href="~/Hello/Contact">Contact</a></li>
+                <li><a href="~/Hello/Page4">Page4</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            @RenderBody()
+        </article>
+    </section>
+
+    <footer>
+        <p>Footer</p>
+    </footer>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+</body>
+</html>

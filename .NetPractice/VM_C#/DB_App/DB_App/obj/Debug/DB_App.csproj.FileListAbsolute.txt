@@ -1,0 +1,6 @@
+C:\Users\dipalik\Music\VM_C#\DB_App\DB_App\bin\Debug\DB_App.exe.config
+C:\Users\dipalik\Music\VM_C#\DB_App\DB_App\bin\Debug\DB_App.exe
+C:\Users\dipalik\Music\VM_C#\DB_App\DB_App\bin\Debug\DB_App.pdb
+C:\Users\dipalik\Music\VM_C#\DB_App\DB_App\obj\Debug\DB_App.csproj.CoreCompileInputs.cache
+C:\Users\dipalik\Music\VM_C#\DB_App\DB_App\obj\Debug\DB_App.exe
+C:\Users\dipalik\Music\VM_C#\DB_App\DB_App\obj\Debug\DB_App.pdb

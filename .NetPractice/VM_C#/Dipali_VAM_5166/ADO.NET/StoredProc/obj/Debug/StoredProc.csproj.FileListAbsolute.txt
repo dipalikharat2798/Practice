@@ -1,0 +1,7 @@
+C:\VM\day11\StoredProc\bin\Debug\StoredProc.exe.config
+C:\VM\day11\StoredProc\bin\Debug\StoredProc.exe
+C:\VM\day11\StoredProc\bin\Debug\StoredProc.pdb
+C:\VM\day11\StoredProc\obj\Debug\StoredProc.csprojAssemblyReference.cache
+C:\VM\day11\StoredProc\obj\Debug\StoredProc.csproj.CoreCompileInputs.cache
+C:\VM\day11\StoredProc\obj\Debug\StoredProc.exe
+C:\VM\day11\StoredProc\obj\Debug\StoredProc.pdb

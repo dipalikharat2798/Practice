@@ -1,0 +1,4 @@
+include ':OnDemand'
+include ':OnInstall'
+include ':app'
+rootProject.name = "DynamicDemo"

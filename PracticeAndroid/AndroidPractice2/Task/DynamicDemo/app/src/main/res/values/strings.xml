@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DynamicDemo</string>
+    <string name="title_oninstall">OnInstall</string>
+    <string name="title_ondemand">On Demand</string>
+</resources>

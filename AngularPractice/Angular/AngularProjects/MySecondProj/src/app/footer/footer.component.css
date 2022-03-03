@@ -1,0 +1,38 @@
+footer {
+  position: fixed;
+  height: 40px;
+  bottom: 0;
+  width: 100%;
+}
+.bgred {
+  background-color: #d1e0e0;
+}
+
+
+/**/
+/*
+#footer {
+  text-align: center; 
+}
+
+
+
+.footericon i {
+  margin: 1%;
+  font-size: 2rem;
+}
+
+
+
+#contact {
+  padding: 4%;
+  text-align: center;
+  background-color: #DCE6F0;
+}
+
+
+
+.icons {
+  font-size: 4rem;
+}
+*/

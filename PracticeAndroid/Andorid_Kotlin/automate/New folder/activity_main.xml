@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnEnable"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="enablePhone"
+            android:text="Enable" />
+
+        <Button
+            android:id="@+id/btnLock"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="lockPhone"
+            android:visibility="gone"
+            android:text="Lock" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l1"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/time_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="8:45 Am"
+            />
+
+        <Button
+            android:id="@+id/setTime_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Time" />
+
+        <Button
+            android:id="@+id/setAlarm_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set Alarm" />
+
+        <Button
+            android:id="@+id/cancelAlarm_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel Alarm" />
+    </LinearLayout>
+</RelativeLayout>

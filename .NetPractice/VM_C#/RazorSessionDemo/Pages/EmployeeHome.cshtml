@@ -1,0 +1,7 @@
+﻿@page
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+@model RazorSessionDemo.Pages.EmployeeHomeModel
+@{
+}
+<h4>@HttpContextAccessor.HttpContext.Session.GetString("Username")</h4>

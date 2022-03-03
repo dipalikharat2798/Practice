@@ -1,0 +1,38 @@
+[
+  {
+    "id": 101,
+    "name": "Dipali",
+    "description": "you will get quality content",
+    "image": "../assets/avator.jfif"
+  },
+  {
+    "id": 102,
+    "name": "Cheeranjeevi",
+    "description": "I found it interesting and easy to learn",
+    "image": "../assets/p1.jfif"
+  },
+  {
+    "id": 103,
+    "name": "Raksha",
+    "description": "learn with ease",
+    "image": "../assets/p2.jpg"
+  },
+  {
+    "id": 104,
+    "name": "Pranav",
+    "description": " project based learning",
+    "image": "../assets/p3.jfif"
+  },
+  {
+    "id": 105,
+    "name": "Prachi",
+    "description": "concepts are good",
+    "image": "../assets/p4.jfif"
+  },
+  {
+    "id": 106,
+    "name": "Neha",
+    "description": "easy to understand hard topics",
+    "image": "../assets/avator.jfif"
+  }
+]

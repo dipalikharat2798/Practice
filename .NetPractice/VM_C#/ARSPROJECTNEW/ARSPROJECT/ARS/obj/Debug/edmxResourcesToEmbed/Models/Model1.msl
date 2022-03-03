@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ARSModelStoreContainer" CdmEntityContainer="ARSEntities1">
+    <EntitySetMapping Name="Routes">
+      <EntityTypeMapping TypeName="ARSModel.Route">
+        <MappingFragment StoreEntitySet="Route">
+          <ScalarProperty Name="RtID" ColumnName="RtID" />
+          <ScalarProperty Name="Airport" ColumnName="Airport" />
+          <ScalarProperty Name="Destination" ColumnName="Destination" />
+          <ScalarProperty Name="RouteCode" ColumnName="RouteCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

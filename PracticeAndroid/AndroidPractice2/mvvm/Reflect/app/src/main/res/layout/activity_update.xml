@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:outlineSpotShadowColor="@color/cardview_shadow_end_color">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical"
+            android:outlineAmbientShadowColor="@color/cardview_shadow_end_color">
+
+            <EditText
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/edit_back"
+                android:hint="Title..."
+                android:padding="15dp"
+                android:textColorHint="@color/black" />
+
+            <EditText
+                android:id="@+id/subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/edit_back"
+                android:hint="Subtitle..."
+                android:padding="15dp"
+                android:textColorHint="@color/black" />
+
+            <!--        <LinearLayout-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="52dp"-->
+            <!--            android:layout_margin="10dp"-->
+            <!--            android:orientation="horizontal">-->
+
+            <!--            <TextView-->
+            <!--                android:layout_width="68dp"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:layout_marginLeft="10dp"-->
+            <!--                android:gravity="center_vertical"-->
+            <!--                android:text="Priorities"-->
+            <!--                android:textColor="@color/black" />-->
+            <!--            <ImageView-->
+            <!--                android:id="@+id/green"-->
+            <!--                android:layout_width="25dp"-->
+            <!--                android:layout_height="25dp"-->
+            <!--                android:layout_marginLeft="10dp"-->
+            <!--                android:layout_gravity="center_vertical"-->
+            <!--                android:src="@drawable/ic_done"-->
+            <!--                android:background="@color/green"/>-->
+            <!--            <ImageView-->
+            <!--                android:id="@+id/yellow"-->
+            <!--                android:layout_width="25dp"-->
+            <!--                android:layout_height="25dp"-->
+            <!--                android:layout_marginLeft="10dp"-->
+            <!--                android:layout_gravity="center_vertical"-->
+            <!--                android:background="@color/yellow"/>-->
+            <!--            <ImageView-->
+            <!--                android:id="@+id/red"-->
+            <!--                android:layout_width="25dp"-->
+            <!--                android:layout_height="25dp"-->
+            <!--                android:layout_marginLeft="10dp"-->
+            <!--                android:layout_gravity="center_vertical"-->
+            <!--                android:background="@color/red_or"/>-->
+            <!--        </LinearLayout>-->
+
+            <EditText
+                android:id="@+id/notes"
+                android:layout_width="match_parent"
+                android:layout_height="403dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/edit_back"
+                android:gravity="start"
+                android:hint="Penciled out Todays Favourite Moment..."
+                android:padding="15dp"
+                android:textColorHint="@color/black" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/donenotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_add"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        />
+
+
+</RelativeLayout>

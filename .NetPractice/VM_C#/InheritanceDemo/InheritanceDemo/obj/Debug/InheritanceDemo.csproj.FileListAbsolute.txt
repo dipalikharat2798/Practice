@@ -1,0 +1,7 @@
+C:\Users\dipalik\Music\VM_C#\InheritanceDemo\InheritanceDemo\bin\Debug\InheritanceDemo.exe.config
+C:\Users\dipalik\Music\VM_C#\InheritanceDemo\InheritanceDemo\bin\Debug\InheritanceDemo.exe
+C:\Users\dipalik\Music\VM_C#\InheritanceDemo\InheritanceDemo\bin\Debug\InheritanceDemo.pdb
+C:\Users\dipalik\Music\VM_C#\InheritanceDemo\InheritanceDemo\obj\Debug\InheritanceDemo.csprojAssemblyReference.cache
+C:\Users\dipalik\Music\VM_C#\InheritanceDemo\InheritanceDemo\obj\Debug\InheritanceDemo.csproj.CoreCompileInputs.cache
+C:\Users\dipalik\Music\VM_C#\InheritanceDemo\InheritanceDemo\obj\Debug\InheritanceDemo.exe
+C:\Users\dipalik\Music\VM_C#\InheritanceDemo\InheritanceDemo\obj\Debug\InheritanceDemo.pdb

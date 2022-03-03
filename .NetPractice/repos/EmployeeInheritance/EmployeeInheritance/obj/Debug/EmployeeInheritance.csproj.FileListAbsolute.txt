@@ -1,0 +1,7 @@
+C:\Users\dipalik\source\repos\EmployeeInheritance\EmployeeInheritance\bin\Debug\EmployeeInheritance.exe.config
+C:\Users\dipalik\source\repos\EmployeeInheritance\EmployeeInheritance\bin\Debug\EmployeeInheritance.exe
+C:\Users\dipalik\source\repos\EmployeeInheritance\EmployeeInheritance\bin\Debug\EmployeeInheritance.pdb
+C:\Users\dipalik\source\repos\EmployeeInheritance\EmployeeInheritance\obj\Debug\EmployeeInheritance.csprojAssemblyReference.cache
+C:\Users\dipalik\source\repos\EmployeeInheritance\EmployeeInheritance\obj\Debug\EmployeeInheritance.csproj.CoreCompileInputs.cache
+C:\Users\dipalik\source\repos\EmployeeInheritance\EmployeeInheritance\obj\Debug\EmployeeInheritance.exe
+C:\Users\dipalik\source\repos\EmployeeInheritance\EmployeeInheritance\obj\Debug\EmployeeInheritance.pdb

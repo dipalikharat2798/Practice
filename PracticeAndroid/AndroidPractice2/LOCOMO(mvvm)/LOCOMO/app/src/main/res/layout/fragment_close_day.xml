@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.CloseDayFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header_layout"
+        android:background="@color/lightblue"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Catch You Tomorrow..."
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Day Paused"
+            android:background="@color/lightpink"
+            android:layout_margin="15dp"
+            android:textSize="25dp"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/AdExpress_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Take me to AD Express"
+            android:background="@color/purple"
+            android:layout_margin="15dp"
+            android:textSize="25dp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+</LinearLayout>

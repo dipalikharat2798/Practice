@@ -1,0 +1,6 @@
+C:\Users\dipalik\source\repos\EmpInheritance\EmpInheritance\bin\Debug\EmpInheritance.exe.config
+C:\Users\dipalik\source\repos\EmpInheritance\EmpInheritance\bin\Debug\EmpInheritance.exe
+C:\Users\dipalik\source\repos\EmpInheritance\EmpInheritance\bin\Debug\EmpInheritance.pdb
+C:\Users\dipalik\source\repos\EmpInheritance\EmpInheritance\obj\Debug\EmpInheritance.csproj.CoreCompileInputs.cache
+C:\Users\dipalik\source\repos\EmpInheritance\EmpInheritance\obj\Debug\EmpInheritance.exe
+C:\Users\dipalik\source\repos\EmpInheritance\EmpInheritance\obj\Debug\EmpInheritance.pdb

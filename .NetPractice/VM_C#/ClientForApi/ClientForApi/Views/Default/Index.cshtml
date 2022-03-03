@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<table border="1" id="table1">
+    <tr>
+        <th>Employees ID</th>
+        <th>Employees Name</th>
+        <th>Email</th>
+        <th>age</th>
+    </tr>
+</table>
+
+<input type="button" value="Get Customers (using Web API)" id="button1" />
+<span id="ResponseSpan">  </span>
+
+
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+
+        $("#button1").click(
+            function () {
+
+                //ajax code
+                $.ajax({
+                    url: 'https://localhost:44388/api/Employees',
+                    data: {},
+                    type: "get",
+                    success: function (response) {
+
+                        $("#table1 tr:gt(0)").remove();
+                        $.each(response, function (i, item) {
+                            $("#table1").append
+                                ("<tr><td>" + item.Id + "</td> <td>" + item.Name + "</td> <td>" + item.Email + "</td> <td>" + item.Age + "</td>  </tr>");
+                        });
+
+                    },
+
+                    error: function (jqXHR, textStatus, err) {
+                        $("#ResponseSpan").html(err);
+                    }
+                });
+
+            });
+
+    });
+</script>

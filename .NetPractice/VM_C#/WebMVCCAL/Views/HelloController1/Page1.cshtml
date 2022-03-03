@@ -1,0 +1,37 @@
+﻿@model WebMVCCAL.Models.Numbers
+
+@{
+    ViewData["Title"] = "Page1";
+}
+
+<h1>Page1</h1>
+
+<h4>Numbers</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Page1">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Num1" class="control-label"></label>
+                <input asp-for="Num1" class="form-control" />
+                <span asp-validation-for="Num1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Num2" class="control-label"></label>
+                <input asp-for="Num2" class="form-control" />
+                <span asp-validation-for="Num2" class="text-danger"></span>
+            </div>
+            <input type="submit" name="Cal" value="Add" class="btn btn-primary" />
+            <input type="text" class="form-control" value="@ViewBag.Result" />
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

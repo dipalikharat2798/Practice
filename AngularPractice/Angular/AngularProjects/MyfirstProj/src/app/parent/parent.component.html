@@ -1,0 +1,7 @@
+<div>
+  <h1>Parent component : {{pname}}</h1>
+  <h1>ParentComponent -Amount- {{pAmount}}</h1>
+  <h1><u>{{updatedAmount}}</u></h1>
+  <app-child [cAmount]="pAmount"  (notify)='getcAmountFromChild($event)'></app-child>
+
+</div>

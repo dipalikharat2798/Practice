@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AdminApp</string>
+    <string name="firebase_username">ADEXPRESS</string>
+    <string name="firebase_ucode">UIcode</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="APP_Version">
+        <item>2_0_600</item>
+        <item>2_0_629</item>
+        <item>2_0_650</item>
+    </string-array>
+    <string-array name="main_arr">
+        <item>BETA</item>
+        <item>PROD</item>
+        <item>USER</item>
+    </string-array>
+
+</resources>

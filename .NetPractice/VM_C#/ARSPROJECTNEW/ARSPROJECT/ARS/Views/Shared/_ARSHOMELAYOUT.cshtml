@@ -1,0 +1,246 @@
+﻿@*<!DOCTYPE html>
+<html>
+<head>
+    <title>@Page.Title</title>
+    @RenderSection("head", required: false)
+</head>
+<body>
+    @RenderBody()
+</body>
+</html>*@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewBag.Title</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/709718c5e6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+    <link href="~/Content/Admincss.css" rel="stylesheet" />
+
+
+    <style>
+        img {
+            max-width: 100%;
+            max-height: 50%;
+            padding-top: 0px;
+        }
+
+        h1 {
+            color: green;
+        }
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container-fluid" style="background-color:#F44336;color:#fff;height:200px;">
+        <h1>Bootstrap Affix Example</h1>
+        <h3>Fixed (sticky) navbar on scroll</h3>
+        <p>Scroll this page to see how the navbar behaves with data-spy="affix".</p>
+        <p>The navbar is attached to the top of the page after you have scrolled a specified amount of pixels.</p>
+    </div>
+
+   
+    <section id="home">
+        @*<nav class="navbar navbar-expand-lg bg-info text-white navbar-dark fixed-top">*@
+
+        <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+            <a class="navbar-brand text-white fas fa-plane-departure " href="">ARSAIRLINES</a>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="Page2.cshtml">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="Page2.cshtml">Admin</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="Page2.cshtml">Passenger</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="Page2.cshtml">Logout</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="row">
+            <div class="col-lg-12">
+                <!--    <img src="" alt="petshome" />   -->
+                @RenderBody()
+            </div>
+        </div>
+    </section>
+    <!--Start od services-->
+
+    <section id="services">
+        <div class="container-fluid">
+            <h2>More Details about ARS Airlines</h2>
+            <p>Simple and affordable pricing plans </p>
+            <br />
+            <br />
+            <div class="row">
+                <!--Card 1-->
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-header fas fa-info-circle footericon">
+                            <span class="glyphicon glyphicon-time"></span>
+                            <h3>Support</h3>
+                        </div>
+                        <div class="card-body">
+                            <h2>Here</h2>
+                            <p>Uninterrupted operation 24 hours a day,</p>
+                            <p>7 days a week,</p>
+                            <p>monthly</p>
+                            <p>365 days a year.</p>
+                            <img src="~/Content/Aero2.jpg" class="img-rounded" alt="Cinque Terre" width="75" height="75">
+                        </div>
+                    </div>
+                </div>
+                <!--Card 2-->
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-header fas fa-users">
+                            <span class="glyphicon glyphicon-globe"></span>
+                            <h3>Authority</h3>
+                        </div>
+                        <div class="card-body ">
+                            <h2>Team</h2>
+                            <p>Dedicated manager</p>
+                            <p>Team under full </p>
+                            <p>full accountability.</p>
+                            <p>teamwork</p>
+                            <img src="~/Content/Aero1.jfif" class="img-rounded" alt="Cinque Terre" width="75" height="75">
+                        </div>
+                    </div>
+                </div>
+                <!--Card 3-->
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-header  fas fa-hand-peace">
+                            <span class="glyphicon glyphicon-user"></span>
+                            <h3>Quality</h3>
+                        </div>
+                        <div class="card-body">
+                            <h2>Provide</h2>
+                            <p>Best services</p>
+                            <p>Fast and easy</p>
+                            <p>Safety</p>
+                            <p>quality</p>
+                            <img src="~/Content/Plane_night.jpg" class="img-rounded" alt="Cinque Terre" width="75" height="75">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2><strong>Qualities are here to show you</strong></h2>
+        <center>
+            <p>
+                Air India is the flag carrier airline of India, headquartered at New Delhi.
+                It is owned by Air India Limited, a government-owned enterprise, and operates a fleet of Airbus and Boeing aircraft serving 102 domestic and international destinations.
+                The airline has its hub at Indira Gandhi International Airport, New Delhi, alongside several focus cities across India. Air India is the largest international carrier out of India with an 18.6% market share.
+                Over 60 international destinations are served by Air India across four continents.
+                The airline became the 27th member of Star Alliance on 11 July 201
+            </p>
+            <p>
+                <center>
+                    Established in 2016, we are the international air transport rating organisation, based in London, UK.
+                    With a unique knowledge base and expertise of quality issues affecting the air transport industry,
+                    ARSAIRLINES deliver innovative thinking to help make change happen. World Airline and Airport Rating
+                    is the professional,unified Quality classification system of airline and airport standards worldwide.
+                    about us
+                </center>
+            </p>
+            <p>
+                <center>
+                    More often than not, booking directly through the airline’s website will give you the best price.
+                    Another reason to book directly  through an airline’s website is to use  frequent flyer  miles
+                    — hooray for award flights!One of the things I love about this site is the super visual way they
+                    show you the price trends for your flight.
+                </center>
+            </p>
+            <p>
+                <center>
+                    you can tell if you could save some money by shifting around your travel dates a bit. They also
+                    offer a price tracker and lots of filtering options on the left-hand side of the screen.They also
+                    offer Mix and Match fares which are simply 2 one way tickets from different providers packaged
+                    together to get you the best deal. However, unlike other sites, to book these types of tickets
+                    you do have to go to 2 separate websites to book.
+                </center>
+            </p>
+        </center>
+    </section>
+    <!--contnt section-->
+    <section id="contact">
+        <div class="container-fluid">
+
+            <h2>Founders</h2>
+            <p><h3>Here we have our team with you</h3></p>
+            <br />
+            <div class="row" stlye="padding:6%;">
+
+                <div class="col-lg-3">
+                    <img src="~/Content/Quality.jfif" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+                    <div class="card-body">
+                        <h3 class="card-title fas fa-praying-hands">Dipali kharat</h3>
+                        <p class="card-text">Work | Front-end</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <img src="~/Content/Air3.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+
+                    <div class="card-body">
+                        <h3 class="card-title fas fa-praying-hands">Neha Rathore</h3>
+                        <p class="card-text">Work | Front-end</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <img src="~/Content/Air2.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+
+                    <div class="card-body">
+                        <h3 class="card-title fas fa-praying-hands">Preety Panjwani</h3>
+                        <p class="card-text">Work | Back-end</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <img src="~/Content/Air2.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title fas fa-praying-hands">Neha  Mahalle</h3>
+                        <p class="card-text">Work | Back-end</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--second row-->
+    </section>
+    <!--footer-->
+    <footer id="footer">
+        <div class="footericon">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-snapchat"></i>
+        </div>
+        <p>@@Copyright airbook 2021</p>
+    </footer>
+</body>
+</html>

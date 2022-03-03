@@ -1,0 +1,12 @@
+C:\Users\dipalik\Music\VM_C#\MovieTicket\MovieTicketProject\MovieTicketProject\bin\Debug\MovieTicketProject.exe.config
+C:\Users\dipalik\Music\VM_C#\MovieTicket\MovieTicketProject\MovieTicketProject\bin\Debug\MovieTicketProject.exe
+C:\Users\dipalik\Music\VM_C#\MovieTicket\MovieTicketProject\MovieTicketProject\bin\Debug\MovieTicketProject.pdb
+C:\Users\dipalik\Music\VM_C#\MovieTicket\MovieTicketProject\MovieTicketProject\bin\Debug\Movie.dll
+C:\Users\dipalik\Music\VM_C#\MovieTicket\MovieTicketProject\MovieTicketProject\bin\Debug\Person.dll
+C:\Users\dipalik\Music\VM_C#\MovieTicket\MovieTicketProject\MovieTicketProject\bin\Debug\Movie.pdb
+C:\Users\dipalik\Music\VM_C#\MovieTicket\MovieTicketProject\MovieTicketProject\bin\Debug\Person.pdb
+C:\Users\dipalik\Music\VM_C#\MovieTicket\MovieTicketProject\MovieTicketProject\obj\Debug\MovieTicketProject.csprojAssemblyReference.cache
+C:\Users\dipalik\Music\VM_C#\MovieTicket\MovieTicketProject\MovieTicketProject\obj\Debug\MovieTicketProject.csproj.CoreCompileInputs.cache
+C:\Users\dipalik\Music\VM_C#\MovieTicket\MovieTicketProject\MovieTicketProject\obj\Debug\MovieTicketProject.csproj.CopyComplete
+C:\Users\dipalik\Music\VM_C#\MovieTicket\MovieTicketProject\MovieTicketProject\obj\Debug\MovieTicketProject.exe
+C:\Users\dipalik\Music\VM_C#\MovieTicket\MovieTicketProject\MovieTicketProject\obj\Debug\MovieTicketProject.pdb

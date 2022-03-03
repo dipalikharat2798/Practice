@@ -1,0 +1,5 @@
+C:\Users\dipalik\Music\VM_C#\MyLiabraries\Movie\Movie\bin\Debug\Movie.dll
+C:\Users\dipalik\Music\VM_C#\MyLiabraries\Movie\Movie\bin\Debug\Movie.pdb
+C:\Users\dipalik\Music\VM_C#\MyLiabraries\Movie\Movie\obj\Debug\Movie.csproj.CoreCompileInputs.cache
+C:\Users\dipalik\Music\VM_C#\MyLiabraries\Movie\Movie\obj\Debug\Movie.dll
+C:\Users\dipalik\Music\VM_C#\MyLiabraries\Movie\Movie\obj\Debug\Movie.pdb

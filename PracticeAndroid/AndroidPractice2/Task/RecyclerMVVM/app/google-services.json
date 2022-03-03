@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "85444367557",
+    "firebase_url": "https://recyclermvvm-a74ec-default-rtdb.firebaseio.com",
+    "project_id": "recyclermvvm-a74ec",
+    "storage_bucket": "recyclermvvm-a74ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85444367557:android:4de3fe39c6d622a7c68cac",
+        "android_client_info": {
+          "package_name": "com.example.recyclermvvm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85444367557-qgvo6e56na9hsqem7nnn1v8oen27l2ah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAI6HhJV3pzyBB298itS9F26QsxeF5n8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85444367557-qgvo6e56na9hsqem7nnn1v8oen27l2ah.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

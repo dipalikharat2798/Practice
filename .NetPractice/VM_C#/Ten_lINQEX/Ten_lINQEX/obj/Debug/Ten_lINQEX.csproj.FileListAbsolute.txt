@@ -1,0 +1,7 @@
+C:\Users\dipalik\Music\VM_C#\Ten_lINQEX\Ten_lINQEX\bin\Debug\Ten_lINQEX.exe.config
+C:\Users\dipalik\Music\VM_C#\Ten_lINQEX\Ten_lINQEX\bin\Debug\Ten_lINQEX.exe
+C:\Users\dipalik\Music\VM_C#\Ten_lINQEX\Ten_lINQEX\bin\Debug\Ten_lINQEX.pdb
+C:\Users\dipalik\Music\VM_C#\Ten_lINQEX\Ten_lINQEX\obj\Debug\Ten_lINQEX.csprojAssemblyReference.cache
+C:\Users\dipalik\Music\VM_C#\Ten_lINQEX\Ten_lINQEX\obj\Debug\Ten_lINQEX.csproj.CoreCompileInputs.cache
+C:\Users\dipalik\Music\VM_C#\Ten_lINQEX\Ten_lINQEX\obj\Debug\Ten_lINQEX.exe
+C:\Users\dipalik\Music\VM_C#\Ten_lINQEX\Ten_lINQEX\obj\Debug\Ten_lINQEX.pdb

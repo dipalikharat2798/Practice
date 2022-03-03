@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5e97b1f38fb84f58870a6d20ae3ea1f4" Name="Diagram1">
+        <EntityTypeShape EntityType="ARSModel.Admin" Width="1.5" PointX="14.5" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ARSModel.AirCraft" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ARSModel.AirFare" Width="1.5" PointX="3" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ARSModel.Branch" Width="1.5" PointX="12.25" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ARSModel.Charge" Width="1.5" PointX="5.25" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ARSModel.Contact_Details" Width="1.5" PointX="12.25" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="ARSModel.Country" Width="1.5" PointX="7.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ARSModel.Discount" Width="1.5" PointX="5.25" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="ARSModel.Flight_Schedule" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ARSModel.Passenger" Width="1.5" PointX="5.25" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ARSModel.Route" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ARSModel.State" Width="1.5" PointX="10" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ARSModel.Transaction" Width="1.5" PointX="7.5" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="ARSModel.fk_Branch" ManuallyRouted="false" />
+        <AssociationConnector Association="ARSModel.fk_AirCraft" ManuallyRouted="false" />
+        <AssociationConnector Association="ARSModel.fk_NetFare" ManuallyRouted="false" />
+        <AssociationConnector Association="ARSModel.fk_Route" ManuallyRouted="false" />
+        <AssociationConnector Association="ARSModel.fk_StateOfEmployee" ManuallyRouted="false" />
+        <AssociationConnector Association="ARSModel.fk_Charges" ManuallyRouted="false" />
+        <AssociationConnector Association="ARSModel.fk_State" ManuallyRouted="false" />
+        <AssociationConnector Association="ARSModel.fk_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="ARSModel.fk_Discount" ManuallyRouted="false" />
+        <AssociationConnector Association="ARSModel.fk_Flight" ManuallyRouted="false" />
+        <AssociationConnector Association="ARSModel.fk_Passenger" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

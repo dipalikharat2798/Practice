@@ -1,0 +1,5 @@
+C:\Users\dipalik\Music\VM_C#\MyLiabraries\Person\Person\bin\Debug\Person.dll
+C:\Users\dipalik\Music\VM_C#\MyLiabraries\Person\Person\bin\Debug\Person.pdb
+C:\Users\dipalik\Music\VM_C#\MyLiabraries\Person\Person\obj\Debug\Person.csproj.CoreCompileInputs.cache
+C:\Users\dipalik\Music\VM_C#\MyLiabraries\Person\Person\obj\Debug\Person.dll
+C:\Users\dipalik\Music\VM_C#\MyLiabraries\Person\Person\obj\Debug\Person.pdb

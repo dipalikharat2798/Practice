@@ -1,0 +1,7 @@
+C:\VM\day10\Sql\bin\Debug\Sql.exe.config
+C:\VM\day10\Sql\bin\Debug\Sql.exe
+C:\VM\day10\Sql\bin\Debug\Sql.pdb
+C:\VM\day10\Sql\obj\Debug\Sql.csprojAssemblyReference.cache
+C:\VM\day10\Sql\obj\Debug\Sql.csproj.CoreCompileInputs.cache
+C:\VM\day10\Sql\obj\Debug\Sql.exe
+C:\VM\day10\Sql\obj\Debug\Sql.pdb

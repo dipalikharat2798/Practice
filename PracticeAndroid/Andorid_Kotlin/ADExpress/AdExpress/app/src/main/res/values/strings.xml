@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AdExpress</string>
+    <string name="redirecting_toast_msg">Redirecting...</string>
+    <string name="wrong_credential_toast">Wrong Credentials</string>
+    <string name="middle">Middle</string>
+    <string name="item_element_text">item_element_text</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_new_spend">add_new_spend</string>
+    <string name="amount">amount</string>
+    <string name="description">description</string>
+    <string name="add_spend">add_spend</string>
+    <string name="last_20_spends">last_20_spends</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="new_to_edexpress_register">New to EdExpress? Register</string>
+</resources>

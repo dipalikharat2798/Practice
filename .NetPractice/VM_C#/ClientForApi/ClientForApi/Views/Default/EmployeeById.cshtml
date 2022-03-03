@@ -1,0 +1,66 @@
+﻿
+@{
+    ViewBag.Title = "EmployeeById";
+}
+
+<h2>EmployeeById</h2>
+
+<label for="EmployeeId">Employee ID:</label>
+<input type="text" id="EmployeeId" />
+
+<input type="button" value="Get Student (using Web API)" id="button1" />
+
+<span id="ResponseSpan"></span>
+
+<p>
+    <span>EmployeeId:</span>
+    <span style="font-weight:bold" id="EmployeeIdSpan">  </span>
+</p>
+
+<p>
+    <span>Employee Name:</span>
+    <span style="font-weight:bold" id="EmployeeNameSpan">  </span>
+</p>
+
+<p>
+    <span>Emoloyee Email:</span>
+    <span style="font-weight:bold" id="EmployeeEmailSpan">  </span>
+</p>
+<p>
+    <span>Employee Age:</span>
+    <span style="font-weight:bold" id="EmployeeAgeSpan">  </span>
+</p>
+
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+
+<script type="text/javascript">
+
+    $(function () {
+
+        $("#button1").click(function () {
+
+            $.ajax({
+
+                cache: false,
+                url: 'https://localhost:44334/api/Students/',
+                type: "get",
+                data: { "id": $("#StudentID").val() },
+                dataType: "json",
+
+                success: function (response) {
+                    $("#StudentIDSpan").html(response.Id);
+                    $("#StudentNameSpan").html(response.Name);
+                    $("#MarksSpan").html(response.Marks);
+
+                },
+                error: function (jqXHR, textStatus, err) {
+                    $("#ResponseSpan").html(err);
+                }
+            });
+
+        });
+
+    });
+
+</script>
+

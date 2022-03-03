@@ -1,0 +1,41 @@
+
+<html>
+<head>
+  <style>
+    .bgred {
+      background: #004080;
+    }
+  </style>
+</head>
+<body>
+  <header class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bgred border-bottom shadow-sm">
+
+
+    <img src="../assets/logo.png" alt="" width="50" height="50" class="d-inline-block align-top">
+    <p class="h5 my-0 me-md-auto fw-normal text-white">{{'BrightHorizon'| translate}}</p>
+
+    <nav class="my-2 my-md-0 me-md-3">
+
+      <a class="active navbar-brand text-white" routerLink='/home' routerLinkActive='active'>{{'Home' | translate}}</a>
+      <a class="active navbar-brand text-white" routerLink='/review' routerLinkActive='active'>{{'Review' | translate}}</a>
+      <a class="active navbar-brand text-white" routerLink='/techno' routerLinkActive='active'>{{'Technologies'| translate}}</a>
+      <a class="active navbar-brand text-white" routerLink='/tforms' routerLinkActive='active'>{{'TdRegistration'| translate}}</a>
+      <a class="active navbar-brand text-white" routerLink='/mforms' routerLinkActive='active'>{{'MdRegistration' | translate}}</a>
+      <img src="../assets/inter.png" height="30px">
+      <select #locale (change)='changeLocale(locale.value)'>
+        <option value='en' color="black">English</option>
+        <option value='fr'>French</option>
+        <option value='hindi'>Hindi</option>
+      </select> | 
+    
+      <a class="btn btn-danger" routerLink='/login' routerLinkActive='active'>Logout</a>
+      <!--<a class="btn btn-primary" routerLink='/dotnet' routerLinkActive='active'>DotNet Technologies</a>-->
+    </nav>
+
+  </header>
+ 
+  
+
+</body>
+</html>
+

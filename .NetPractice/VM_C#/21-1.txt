@@ -1,0 +1,19 @@
+use ValueMDB
+select * from Employee
+
+select * from NewEmpBackup
+
+select * into NewEmpBackup
+from Employee
+
+insert into Employee values(11,'Samatha','FEMALE',6000,'INDIA')
+delete from Employee where ID=10
+
+MERGE NewEmpBackup AS TARGET
+USING Employee AS SOURCE
+ON (TARGET.ID = SOURCE.ID) WHEN MATCHED AND TARGET.Name <> SOURCE.Name
+THEN UPDATE SET TARGET.Name = SOURCE.Name
+WHEN NOT MATCHED THEN
+INSERT VALUES (SOURCE.ID, SOURCE.Name,SOURCE.Gender,SOURCE.Salary,SOURCE.Country)
+WHEN NOT MATCHED BY SOURCE THEN
+DELETE;

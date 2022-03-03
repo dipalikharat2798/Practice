@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script language="javascript" type="text/javascript">
+
+        function validate() {
+            // var name = document.getElementById("Text1").value;
+            var name = document.reg.sname.value;
+            //var mob = document.getElementById("Text2").value;
+            var mob = document.reg.mob.value;
+            var age = document.getElementById("Text3").value;
+
+            var age = document.reg.age.value;
+
+            var rname = new RegExp("^[a-zA-Z]{6,10}$");
+            var rmob = new RegExp("^[987][0-9]{9}$");
+            var rage = new RegExp("^[0-9]{1,2}$");
+
+            if (rname.test(name) == false) {
+               alert("name should be min 6 and max 10 characters and start with alphabet");
+                return false;
+            }
+            if (rmob.test(mob) == false) {
+                alert("invalid mobile number");
+                return false;
+            }
+            if (rage.test(age) == false) {
+                alert("Invalid age");
+                return false;
+            }
+            return true;
+
+        }​​​​​​  
+
+    </script>
+    <style type="text/css">
+        body {
+            background-color: #eee;
+        }
+
+        input {
+            border-top-style: hidden;
+            border-right-style: hidden;
+            border-left-style: hidden;
+            border-bottom-style: groove;
+            background-color: #eee;
+        }
+            input:focus,
+            input:active {
+                border-color: green;
+                border-bottom: 2px solid #1c87c9;
+            }
+
+    </style>
+</head>
+<body>
+    <form id="form1" name="reg" runat="server">
+
+        <span class="style1">STUDENT REGISTRATION FORM </span> <br />
+
+        Enter Name :
+        <input id="Text1" type="text" placeholder="Name" name="sname" /> <br />
+        Mobile :
+        <input id="Text2" type="text" placeholder="Mobile" name="mob" /> <br />
+
+        Enter Age:
+        <input id="Text3" type="text" placeholder="Age" name="age" /> <br />
+
+        <input id="Submit1" type="submit" value="submit" onclick="return validate();" />
+    </form>
+</body>
+</html>

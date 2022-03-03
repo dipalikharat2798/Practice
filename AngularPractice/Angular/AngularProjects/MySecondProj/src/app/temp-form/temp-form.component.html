@@ -1,0 +1,148 @@
+<!--<app-navbar></app-navbar>-->
+
+<div class='container'>
+  <div class="row">
+    <div class="col-lg-8">
+
+      <form #userForm='ngForm' (ngSubmit)='submitData(userForm.value)'>
+        <img src="../assets/form1.png" style="height:90px; width:400px" />
+        <div class='form-group'>
+
+          <label><b>Name: </b> </label>
+          <input type='text' class='form-control' name='name' #nameRef='ngModel'
+                 ngModel required minlength='5' maxlength='12' pattern='[a-z]+'>
+          <div *ngIf='nameRef.errors && (nameRef.dirty || nameRef.touched)' class='alert alert-danger'>
+            <div [hidden]='!nameRef.errors.required'>Please Enter Name</div>
+            <div [hidden]='!nameRef.errors.minlength'>Please Enter atleast 5 characters</div>
+            <div [hidden]='!nameRef.errors.pattern'>Characters are only allowed..</div>
+          </div>
+
+          <label><b>Email Id: </b> </label>
+          <input type="email" class="form-control" name="email" #emailRef='ngModel' ngModel
+                 required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" />
+          <div *ngIf='emailRef.errors && (emailRef.dirty || emailRef.touched)' class='alert alert-danger'>
+            <div [hidden]='!emailRef.errors.required'>Please Enter Email</div>
+            <div [hidden]='!emailRef.errors.pattern'>Please Enter Valid email</div>
+          </div>
+
+
+
+          <div *ngIf="genderRef.invalid && genderRef.touched" class='alert alert-danger'>
+          </div>
+        </div>
+        <div class="custom-control custom-checkbox">
+
+          <div ngModelGroup="Address">
+            <div class="form-group">
+              <label for="city">City:</label>
+              <select id="city" name="city" ngModel class="form-control" #cityRef="ngModel" required>
+                <option value="" hidden required>Select City</option>
+                <option value="Wardha">Buldhana</option>
+                <option value="Nagpur">Pune</option>
+                <option value="Mumbai">Jalna</option>
+                <option value="Pune">Mumbai</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Hyderabad">Hyderabad</option>
+              </select>
+              <div *ngIf='cityRef.errors && (cityRef.dirty || cityRef.touched)' class='alert alert-danger'>
+
+                <div [hidden]='!cityRef.errors.required'>Please Select City</div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="state">State:</label>
+              <select id="state" name="state" ngModel class="form-control" #stateRef="ngModel" required>
+                <option value="" hidden required>Select State</option>
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option value="Assam">Assam</option>
+                <option value="Bihar">Bihar</option>
+                <option value="Goa">Goa</option>
+                <option value="Gujarat">Andhra Gujarat</option>
+                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Punjab">Punjab</option>
+              </select>
+              <div *ngIf='stateRef.errors && (stateRef.dirty || stateRef.touched)' class='alert alert-danger'>
+                <div [hidden]='!stateRef.errors.required'>Please Select State</div>
+              </div>
+            </div>
+
+            <label><b>Postal Code :</b></label>
+            <input type='number' class="form-control" name="postalcode" #postalcodeRef="ngModel" ngModel
+                   required minlength="6" maxlength="10" />
+            <div *ngIf='postalcodeRef.errors && (postalcodeRef.dirty || postalcodeRef.touched)' class='alert alert-danger'>
+
+              <div [hidden]='!postalcodeRef.errors.required'>Please Enter PostalCode</div>
+              <div [hidden]='!postalcodeRef.errors.minlength'>Please Enter atleast 6 characters</div>
+            </div>
+          </div>
+
+          <label><b>Password: </b> </label>
+          <input type='password' class='form-control' name='password' #passwordRef='ngModel'
+                 ngModel required pattern="[A-Za-z0-9\#\@]{8,15}">
+          <div *ngIf='passwordRef.errors && (passwordRef.dirty || passwordRef.touched)' class='alert alert-danger'>
+
+            <div [hidden]='!passwordRef.errors.required'>Please Enter Password</div>
+            <div [hidden]='!passwordRef.errors.pattern'>Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters and a special charachter # or @</div>
+          </div>
+          <br />
+
+          <label><b>Gender</b></label>
+          <div class="d-block my-3">
+            <div class="form-group" [class.has-error]="genderRef.touched && genderRef.invalid">
+              <div class="custom-control custom-radio">
+
+                <input type="radio" name="gender" value="male" #genderRef="ngModel" [(ngModel)]="userForm.genderRef" required>
+                <label class="custom-control-label" for="male"><b>Male</b></label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input type="radio" name="gender" value="female" #genderRef="ngModel" [(ngModel)]="userForm.genderRef" required>
+                <label class="custom-control-label" for="female"><b>Female</b></label>
+              </div>
+
+              <div *ngIf="genderRef.invalid && genderRef.touched" class='alert alert-danger'>
+              </div>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="same-address">
+
+              <label class="custom-control-label" for="isAccept">
+                <b>I Accept Terms & Conditions.</b>
+              </label>
+            </div>
+          </div>
+        </div>
+        <br />
+        <button [disabled]='!userForm.form.valid' type='submit' class='btn btn-success'>Register</button>
+      </form>
+    </div>
+    <div class="col-lg-4">
+      <br />
+
+      <table align="right">
+        <tr *ngIf='myArrayData.length>0'>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Gender</th>
+          <th>City</th>
+          <th>State</th>
+          <th>Postal Code</th>
+
+        </tr>
+        <tr *ngFor="let myData of myArrayData">
+          <td>{{myData.name}}</td>
+
+          <td>{{myData.email}}</td>
+          <td>{{myData.gender}}</td>
+          <td>{{myData.Address.city}}</td>
+          <td>{{myData.Address.state}}</td>
+          <td>{{myData.Address.postalcode}}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+<hr class="my-5">
+
+
+<app-footer></app-footer>

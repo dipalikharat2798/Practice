@@ -1,0 +1,14 @@
+C:\Users\dipalik\Music\VM_C#\ARSPROJECTNEW\ARSPROJECT\ARSREPO\bin\Debug\ARSREPO.dll
+C:\Users\dipalik\Music\VM_C#\ARSPROJECTNEW\ARSPROJECT\ARSREPO\bin\Debug\ARSREPO.pdb
+C:\Users\dipalik\Music\VM_C#\ARSPROJECTNEW\ARSPROJECT\ARSREPO\bin\Debug\ARSDAL.dll
+C:\Users\dipalik\Music\VM_C#\ARSPROJECTNEW\ARSPROJECT\ARSREPO\bin\Debug\EntityFramework.dll
+C:\Users\dipalik\Music\VM_C#\ARSPROJECTNEW\ARSPROJECT\ARSREPO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dipalik\Music\VM_C#\ARSPROJECTNEW\ARSPROJECT\ARSREPO\bin\Debug\ARSDAL.pdb
+C:\Users\dipalik\Music\VM_C#\ARSPROJECTNEW\ARSPROJECT\ARSREPO\bin\Debug\ARSDAL.dll.config
+C:\Users\dipalik\Music\VM_C#\ARSPROJECTNEW\ARSPROJECT\ARSREPO\bin\Debug\EntityFramework.xml
+C:\Users\dipalik\Music\VM_C#\ARSPROJECTNEW\ARSPROJECT\ARSREPO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dipalik\Music\VM_C#\ARSPROJECTNEW\ARSPROJECT\ARSREPO\obj\Debug\ARSREPO.csprojAssemblyReference.cache
+C:\Users\dipalik\Music\VM_C#\ARSPROJECTNEW\ARSPROJECT\ARSREPO\obj\Debug\ARSREPO.csproj.CoreCompileInputs.cache
+C:\Users\dipalik\Music\VM_C#\ARSPROJECTNEW\ARSPROJECT\ARSREPO\obj\Debug\ARSREPO.csproj.CopyComplete
+C:\Users\dipalik\Music\VM_C#\ARSPROJECTNEW\ARSPROJECT\ARSREPO\obj\Debug\ARSREPO.dll
+C:\Users\dipalik\Music\VM_C#\ARSPROJECTNEW\ARSPROJECT\ARSREPO\obj\Debug\ARSREPO.pdb

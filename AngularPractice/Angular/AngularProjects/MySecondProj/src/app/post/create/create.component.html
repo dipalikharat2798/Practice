@@ -1,0 +1,129 @@
+<div class="container">
+  <h1>Create New Post</h1>
+
+  <a href="#" routerLink="/post/index" class="btn btn-primary">Back</a>
+
+  <form [formGroup]="form" (ngSubmit)="submit()">
+
+    <div class="form-group">
+      <label for="title">Title:</label>
+      <input formControlName="title"
+             id="title"
+             type="text"
+             class="form-control">
+      <div *ngIf="f.title.touched && f.title.invalid" class="alert alert-danger">
+        <div *ngIf="f.title.errors.required">Title is required.</div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="body">Body</label>
+      <textarea formControlName="body"
+                id="body"
+                type="text"
+                class="form-control">
+            </textarea>
+      <div *ngIf="f.body.touched && f.body.invalid" class="alert alert-danger">
+        <div *ngIf="f.body.errors.required">Body is required.</div>
+      </div>
+    </div>
+
+    <button class="btn btn-primary" type="submit" [disabled]="!form.valid">Submit</button>
+  </form>
+</div>
+
+<!--<hr style='background:black'>
+
+  <div class='container px-lg-5'>
+    <div class="row">
+      <div class="col-lg-12 ">
+
+        <form [formGroup]="userForm" (ngSubmit)='submit()'>
+          <img src="../assets/form1.png" style="height:90px; width:400px" />
+          <div class='form-group'>
+            <hr />
+            <label><b>Name: </b></label>
+            <input [class.invalid]="userForm.get('name').invalid && userForm.get('name').touched" formControlName='name' class='form-control'>
+            <div *ngIf="userForm.get('name').errors?.required" class='text text-danger'>Name is required </div>
+            <div *ngIf="userForm.get('name').errors?.pattern" class='text text-danger'>Name should be valid and must contain 5 to 15 characters </div>
+          </div>
+          <div class='form-group'>
+            <label><b>Email: </b></label>
+            <input [class.invalid]="userForm.get('email').invalid && userForm.get('email').touched" formControlName='email' class='form-control'>
+            <div *ngIf="userForm.get('email').errors?.required" class='text text-danger'>Email is required </div>
+            <div *ngIf="userForm.get('email').errors?.pattern" class='text text-danger'>Enter valid email i.e xyz@gmail.com </div>
+          </div>
+
+
+          <div formGroupName="address">
+
+            <div class="form-group">
+              <label for="city">City:</label>
+              <select [class.invalid]="userForm.get('address.city').invalid && userForm.get('address.city').touched" id="city" name="city" class="form-control" formControlName='city' required>
+                <option value="" hidden required>Select City</option>
+                <option value="Wardha">Wardha</option>
+                <option value="Nagpur">Nagpur</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Pune">Pune</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Hyderabad">Hyderabad</option>
+              </select>
+              <div *ngIf="userForm.get('address.city').errors?.required" class='text text-danger'>City is required </div>
+            </div>
+            <div class="form-group">
+              <label for="state">State:</label>
+              <select [class.invalid]="userForm.get('address.state').invalid && userForm.get('address.state').touched" formControlName='state' id="state" name="state" class="form-control" required>
+                <option value="" hidden required>Select State</option>
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option value="Assam">Assam</option>
+                <option value="Bihar">Bihar</option>
+                <option value="Goa">Goa</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Punjab">Punjab</option>
+              </select>
+              <div *ngIf="userForm.get('address.state').errors?.required" class='text text-danger'>State is required </div>
+            </div>
+            <div class='form-group'>
+              <label><b>Postal Code: </b></label>
+              <input [class.invalid]="userForm.get('address.postalCode').invalid && userForm.get('address.postalCode').touched" formControlName='postalCode' class='form-control'>
+
+              <div *ngIf="userForm.get('address.postalCode').errors?.required" class='text text-danger'>PostalCode is required </div>
+              <div *ngIf="userForm.get('address.postalCode').errors?.pattern" class='text text-danger'>Enter valid code</div>
+
+            </div>
+          </div>
+
+          <label><b>Gender</b></label>
+          <div class="d-block my-3">
+            <div class="custom-control custom-radio">
+
+              <input type="radio" [class.invalid]="userForm.get('gender').invalid && userForm.get('gender').touched" formControlName='gender' value="Male">
+              <label class="custom-control-label" for="male"><b>Male</b></label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" [class.invalid]="userForm.get('gender').invalid && userForm.get('gender').touched" formControlName='gender' value="Female">
+              <label class="custom-control-label" for="female"><b>Female</b></label>
+            </div>
+
+            <div *ngIf="userForm.get('gender').errors?.required" class='text text-danger'>Gender is required </div>
+          </div>
+          <div class="custom-control custom-checkbox">
+
+            <input type="checkbox" [class.invalid]="userForm.get('isAccept').invalid && userForm.get('isAccept').touched" formControlName='isAccept'>
+            <label class="custom-control-label" for="isAccept">
+              <b>I Accept Terms & Conditions.</b>
+            </label>
+          </div>
+
+
+          <br>
+          <button [disabled]='!userForm.valid' type='submit' class='btn btn-success'>Submit</button>
+        </form>
+      </div>
+
+
+    </div>
+  </div>
+  <hr class="my-5">-->

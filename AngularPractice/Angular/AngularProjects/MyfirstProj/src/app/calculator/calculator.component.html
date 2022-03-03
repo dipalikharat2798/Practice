@@ -1,0 +1,23 @@
+<table id="Calc">
+  <tr>
+    <td><b class="label">FirstNumber:</b></td>
+    <td><input type='number' class="input" #firstNumber></td>
+  </tr>
+  <tr>
+    <td><b class="label">SecondNumber:</b></td>
+    <td><input type='number' class="input" #secondNumber></td>
+  </tr>
+  <tr>
+    <td><b class="label">Result:</b></td>
+    <td>{{result}}</td>
+  </tr>
+
+    <button (click)='add(firstNumber.value, secondNumber.value)' class="button"><b>ADD</b></button>
+    <button (click)='sub(firstNumber.value, secondNumber.value)' class="button"><b>SUB</b></button>
+
+    <button (click)='mul(firstNumber.value, secondNumber.value)' class="button"><b>MULTIPLY</b></button>
+
+    <button (click)='div(firstNumber.value, secondNumber.value)' class="button"><b>DIVIDE</b></button>
+
+ 
+</table>

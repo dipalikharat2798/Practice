@@ -1,0 +1,7 @@
+C:\Users\dipalik\Music\VM_C#\FourthDay\FourthDay\obj\Debug\FourthDay.csprojAssemblyReference.cache
+C:\Users\dipalik\Music\VM_C#\FourthDay\FourthDay\obj\Debug\FourthDay.csproj.CoreCompileInputs.cache
+C:\Users\dipalik\Music\VM_C#\FourthDay\FourthDay\bin\Debug\FourthDay.exe.config
+C:\Users\dipalik\Music\VM_C#\FourthDay\FourthDay\bin\Debug\FourthDay.exe
+C:\Users\dipalik\Music\VM_C#\FourthDay\FourthDay\bin\Debug\FourthDay.pdb
+C:\Users\dipalik\Music\VM_C#\FourthDay\FourthDay\obj\Debug\FourthDay.exe
+C:\Users\dipalik\Music\VM_C#\FourthDay\FourthDay\obj\Debug\FourthDay.pdb

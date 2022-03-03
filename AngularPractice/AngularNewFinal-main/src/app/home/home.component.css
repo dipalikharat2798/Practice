@@ -1,0 +1,33 @@
+/*body {
+  background-image: url("/assets/w3.jpg");
+}
+*/
+/*.image-container {
+  text-align: center
+}*/
+/**/
+/*body {
+  background-image: url('/assets/welcome.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+*/
+/*div {
+  width: 100%;
+  
+}*/
+
+
+img {
+  /*border-style: solid;
+  border-radius: 2px;*/
+  padding: 5px;
+  width: 600px;
+  height: 500px;
+}
+
+/*img {
+  width: 1600px;
+  height: 200px;
+}*/

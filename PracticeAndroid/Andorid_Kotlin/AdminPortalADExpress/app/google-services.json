@@ -1,0 +1,502 @@
+{
+  "project_info": {
+    "project_number": "756616108509",
+    "firebase_url": "https://adexpress-ce47c.firebaseio.com",
+    "project_id": "adexpress-ce47c",
+    "storage_bucket": "adexpress-ce47c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756616108509:android:48c9ac0b847e9b5e75be34",
+        "android_client_info": {
+          "package_name": "com.geico.adexpress"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756616108509-ivm8b1jppltv08npuqfeoerak5h9p1uq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBZ7JuRnSvm9Hf3UCtpBKNS_eJ-AswGc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756616108509-ivm8b1jppltv08npuqfeoerak5h9p1uq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756616108509:android:b544584e68984a1c",
+        "android_client_info": {
+          "package_name": "com.geico.adexpress.adexpress"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756616108509-tfsdnbocanj2o8t07hp1ng9mpkghib7h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.geico.adexpress.adexpress",
+            "certificate_hash": "cdff2fea41fe95140fd5f11e1beeeb1c7c8f74fc"
+          }
+        },
+        {
+          "client_id": "756616108509-ivm8b1jppltv08npuqfeoerak5h9p1uq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBZ7JuRnSvm9Hf3UCtpBKNS_eJ-AswGc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756616108509-ivm8b1jppltv08npuqfeoerak5h9p1uq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756616108509:android:68286d91f9f0c351",
+        "android_client_info": {
+          "package_name": "com.geico.adexpress.adexpress.beta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756616108509-mb5ljdqt6mkv21s9cbsnk6sbnd9qm6rv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.geico.adexpress.adexpress.beta",
+            "certificate_hash": "cdff2fea41fe95140fd5f11e1beeeb1c7c8f74fc"
+          }
+        },
+        {
+          "client_id": "756616108509-ivm8b1jppltv08npuqfeoerak5h9p1uq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBZ7JuRnSvm9Hf3UCtpBKNS_eJ-AswGc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756616108509-ivm8b1jppltv08npuqfeoerak5h9p1uq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756616108509:android:9efc148ad27bb7b1",
+        "android_client_info": {
+          "package_name": "com.geico.adexpress.adexpress.buildtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756616108509-ihtt4teqtjsqa8oq60l8irgrcb0ain36.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.geico.adexpress.adexpress.buildtest",
+            "certificate_hash": "cdff2fea41fe95140fd5f11e1beeeb1c7c8f74fc"
+          }
+        },
+        {
+          "client_id": "756616108509-ivm8b1jppltv08npuqfeoerak5h9p1uq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBZ7JuRnSvm9Hf3UCtpBKNS_eJ-AswGc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756616108509-ivm8b1jppltv08npuqfeoerak5h9p1uq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756616108509:android:b67dac5741b5a06a",
+        "android_client_info": {
+          "package_name": "com.geico.adexpress.adexpress.develop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756616108509-cigsa44s08g9vh1cohvn20fl3nr038ea.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.geico.adexpress.adexpress.develop",
+            "certificate_hash": "cdff2fea41fe95140fd5f11e1beeeb1c7c8f74fc"
+          }
+        },
+        {
+          "client_id": "756616108509-ivm8b1jppltv08npuqfeoerak5h9p1uq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBZ7JuRnSvm9Hf3UCtpBKNS_eJ-AswGc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756616108509-ivm8b1jppltv08npuqfeoerak5h9p1uq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756616108509:android:c79b67bd57740aa275be34",
+        "android_client_info": {
+          "package_name": "com.geico.adexpress.adexpress.ftrk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756616108509-ivm8b1jppltv08npuqfeoerak5h9p1uq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBZ7JuRnSvm9Hf3UCtpBKNS_eJ-AswGc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756616108509-ivm8b1jppltv08npuqfeoerak5h9p1uq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756616108509:android:214b0412b18cd1ee75be34",
+        "android_client_info": {
+          "package_name": "com.geico.adexpress.adexpress.integration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756616108509-ivm8b1jppltv08npuqfeoerak5h9p1uq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBZ7JuRnSvm9Hf3UCtpBKNS_eJ-AswGc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756616108509-ivm8b1jppltv08npuqfeoerak5h9p1uq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756616108509:android:0608955cf3ac700b",
+        "android_client_info": {
+          "package_name": "com.geico.adexpress.adexpress.prod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756616108509-h9d15u5bqn90pm24vd9s8knitr65mqlm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.geico.adexpress.adexpress.prod",
+            "certificate_hash": "cdff2fea41fe95140fd5f11e1beeeb1c7c8f74fc"
+          }
+        },
+        {
+          "client_id": "756616108509-ivm8b1jppltv08npuqfeoerak5h9p1uq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBZ7JuRnSvm9Hf3UCtpBKNS_eJ-AswGc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756616108509-ivm8b1jppltv08npuqfeoerak5h9p1uq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756616108509:android:3f31d09521d9c8b975be34",
+        "android_client_info": {
+          "package_name": "com.geico.adexpress.adexpress.siubeta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756616108509-ivm8b1jppltv08npuqfeoerak5h9p1uq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBZ7JuRnSvm9Hf3UCtpBKNS_eJ-AswGc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756616108509-ivm8b1jppltv08npuqfeoerak5h9p1uq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756616108509:android:63ff17a1016371ad75be34",
+        "android_client_info": {
+          "package_name": "com.geico.adexpress.adexpress.siuintegration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756616108509-ivm8b1jppltv08npuqfeoerak5h9p1uq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBZ7JuRnSvm9Hf3UCtpBKNS_eJ-AswGc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756616108509-ivm8b1jppltv08npuqfeoerak5h9p1uq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756616108509:android:73a67f40973ba6d475be34",
+        "android_client_info": {
+          "package_name": "com.geico.adexpress.adexpress.siuprod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756616108509-ivm8b1jppltv08npuqfeoerak5h9p1uq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBZ7JuRnSvm9Hf3UCtpBKNS_eJ-AswGc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756616108509-ivm8b1jppltv08npuqfeoerak5h9p1uq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756616108509:android:c0d4808c17bae47875be34",
+        "android_client_info": {
+          "package_name": "com.geico.adexpress.adexpress.siutrng"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756616108509-ivm8b1jppltv08npuqfeoerak5h9p1uq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBZ7JuRnSvm9Hf3UCtpBKNS_eJ-AswGc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756616108509-ivm8b1jppltv08npuqfeoerak5h9p1uq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756616108509:android:3a054ab4e8ba049d75be34",
+        "android_client_info": {
+          "package_name": "com.geico.adexpress.adexpress.siuuser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756616108509-ivm8b1jppltv08npuqfeoerak5h9p1uq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBZ7JuRnSvm9Hf3UCtpBKNS_eJ-AswGc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756616108509-ivm8b1jppltv08npuqfeoerak5h9p1uq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756616108509:android:0c0f0399cc73454a",
+        "android_client_info": {
+          "package_name": "com.geico.adexpress.adexpress.trng"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756616108509-1tl8rou97n98iu67mln31ful7t6p1pm7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.geico.adexpress.adexpress.trng",
+            "certificate_hash": "cdff2fea41fe95140fd5f11e1beeeb1c7c8f74fc"
+          }
+        },
+        {
+          "client_id": "756616108509-ivm8b1jppltv08npuqfeoerak5h9p1uq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBZ7JuRnSvm9Hf3UCtpBKNS_eJ-AswGc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756616108509-ivm8b1jppltv08npuqfeoerak5h9p1uq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756616108509:android:8ce28f821676fd62",
+        "android_client_info": {
+          "package_name": "com.geico.adexpress.adexpress.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756616108509-odqp79ktrvf2hjtpa4iga6nto3ubkt9i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.geico.adexpress.adexpress.user",
+            "certificate_hash": "cdff2fea41fe95140fd5f11e1beeeb1c7c8f74fc"
+          }
+        },
+        {
+          "client_id": "756616108509-ivm8b1jppltv08npuqfeoerak5h9p1uq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBZ7JuRnSvm9Hf3UCtpBKNS_eJ-AswGc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756616108509-ivm8b1jppltv08npuqfeoerak5h9p1uq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

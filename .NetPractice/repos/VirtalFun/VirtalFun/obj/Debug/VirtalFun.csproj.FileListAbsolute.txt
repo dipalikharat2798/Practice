@@ -1,0 +1,7 @@
+C:\Users\dipalik\source\repos\VirtalFun\VirtalFun\bin\Debug\VirtalFun.exe.config
+C:\Users\dipalik\source\repos\VirtalFun\VirtalFun\bin\Debug\VirtalFun.exe
+C:\Users\dipalik\source\repos\VirtalFun\VirtalFun\bin\Debug\VirtalFun.pdb
+C:\Users\dipalik\source\repos\VirtalFun\VirtalFun\obj\Debug\VirtalFun.csprojAssemblyReference.cache
+C:\Users\dipalik\source\repos\VirtalFun\VirtalFun\obj\Debug\VirtalFun.csproj.CoreCompileInputs.cache
+C:\Users\dipalik\source\repos\VirtalFun\VirtalFun\obj\Debug\VirtalFun.exe
+C:\Users\dipalik\source\repos\VirtalFun\VirtalFun\obj\Debug\VirtalFun.pdb

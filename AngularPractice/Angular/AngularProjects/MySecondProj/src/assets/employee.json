@@ -1,0 +1,46 @@
+[
+  {
+    "id": 101,
+    "name": "Dipali",
+    "mob": 7070343456,
+    "add": "suncity,pune",
+    "email": "../assets/avator.jfif"
+  },
+  {
+    "id": 102,
+    "name": "john",
+    "mob": 7070345456,
+    "add": "ramnagar,pune",
+    "email": "../assets/p1.jfif"
+
+  },
+  {
+    "id": 103,
+    "name": "ram",
+    "mob": 7070348956,
+    "add": "rajsocity,pune",
+    "email": "../assets/p1.jfif"
+  },
+  {
+    "id": 104,
+    "name": "Dipali",
+    "mob": 7070343456,
+    "add": "suncity,pune",
+    "email": "../assets/p2.jpg"
+  },
+  {
+    "id": 105,
+    "name": "neha",
+    "mob": 7070345456,
+    "add": "ramnagar,pune",
+    "email": "../assets/p3.jfif"
+
+  },
+  {
+    "id": 106,
+    "name": "preeti",
+    "mob": 7070348956,
+    "add": "rajsocity,pune",
+    "email": "../assets/p4.jfif"
+  }
+]

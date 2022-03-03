@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="da90ab3a-5994-41ff-bbf6-7137351a2663" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/java/com/example/financetracker/AccountActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/java/com/example/financetracker/Adapter/DashBoardAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/java/com/example/financetracker/Adapter/DataAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/java/com/example/financetracker/AnalyticsActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/java/com/example/financetracker/BudgetActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/java/com/example/financetracker/ChooseAnalyticActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/java/com/example/financetracker/Fragment/ChartFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/java/com/example/financetracker/Fragment/DashBoardFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/java/com/example/financetracker/Fragment/ExpenseFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/java/com/example/financetracker/Fragment/IncomeFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/java/com/example/financetracker/HistoryActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/java/com/example/financetracker/MainActivity1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/java/com/example/financetracker/Model/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/java/com/example/financetracker/TodaySpendingActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/java/com/example/financetracker/WeekSpendingActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/res/anim/fade_close.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/res/anim/fade_open.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/res/drawable/ic_add.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/res/drawable/ic_dashboard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/res/drawable/ic_remove.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/res/layout/activity_analytics.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/res/layout/activity_main1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/res/layout/appbar_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/res/layout/content_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/res/layout/custom_layout_for_expensedatasec.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/res/layout/custom_layout_for_ipdata.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/res/layout/dashboard_item_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/res/layout/drawer_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/res/layout/expense_recycler_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/res/layout/fragment_chart.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/res/layout/fragment_dash_board.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/res/layout/fragment_expense.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/res/layout/fragment_income.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/res/layout/income_recycler_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/res/layout/nav_header.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/res/menu/bottom_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/res/menu/nav_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocationTracker/app/src/main/res/drawable/bgcircle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicPlayerApp/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceTracker/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceTracker/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceTracker/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceTracker/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceTracker/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceTracker/app/src/main/java/com/example/financetracker/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/java/com/example/financetracker/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceTracker/app/src/main/java/com/example/financetracker/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/java/com/example/financetracker/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceTracker/app/src/main/java/com/example/financetracker/RegistrationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/java/com/example/financetracker/RegistrationActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceTracker/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceTracker/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceTracker/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinanceTracker/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/FinanceTracker/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocationTracker/app/src/main/java/com/example/locationtracker/Database/LocationContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/LocationTracker/app/src/main/java/com/example/locationtracker/Database/LocationContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocationTracker/app/src/main/java/com/example/locationtracker/Database/LocationDBHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/LocationTracker/app/src/main/java/com/example/locationtracker/Database/LocationDBHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocationTracker/app/src/main/java/com/example/locationtracker/Model/LocationModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/LocationTracker/app/src/main/java/com/example/locationtracker/Model/LocationModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocationTracker/app/src/main/java/com/example/locationtracker/activities/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/LocationTracker/app/src/main/java/com/example/locationtracker/activities/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocationTracker/app/src/main/java/com/example/locationtracker/activities/MapsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/LocationTracker/app/src/main/java/com/example/locationtracker/activities/MapsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocationTracker/app/src/main/java/com/example/locationtracker/services/LocationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/LocationTracker/app/src/main/java/com/example/locationtracker/services/LocationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocationTracker/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LocationTracker/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocationTracker/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LocationTracker/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusicPlayerApp/app/src/main/java/com/example/musicplayerapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/MusicPlayerApp/app/src/main/java/com/example/musicplayerapp/MainActivity.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/FinanceTracker" />
+  </component>
+  <component name="ProjectId" id="1ww5zVj9RqgYyrzaGarQcdBT4Ll" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da90ab3a-5994-41ff-bbf6-7137351a2663" name="Default Changelist" comment="" />
+      <created>1629357073016</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629357073016</updated>
+    </task>
+    <servers />
+  </component>
+</project>

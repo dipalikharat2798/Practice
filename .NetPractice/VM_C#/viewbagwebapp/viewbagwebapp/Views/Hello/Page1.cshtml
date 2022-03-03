@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Page1";
+}
+
+<h2>Index</h2>
+
+<p>the value in View Data is : @ViewData["Message1"] </p>
+<p> the value in TempData is : @TempData["Message2"] </p>
+<p> the value in ViewBag is : @ViewBag.Message3 </p>
+<p> the value in session is : @Session["Message4"] </p>
+
+@{ int x = (int)ViewData["x"]; }
+<p> value of x is: @x</p>
+
+
+@{ int y = ViewBag.x; }
+<p> value of x is: @y</p>

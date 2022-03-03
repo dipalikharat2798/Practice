@@ -1,0 +1,27 @@
+
+<section class="col-md-12">
+
+  <div class="row d-flex justify-content-center">
+
+    <app-navbar></app-navbar>
+
+    <div class="col-md-12">
+      <button type="button" class="btn btn-warning btn-lg btn-block ripple-surface">
+        <a [routerLink]='["corejava"]' routerLinkActive='active'>Core java</a>
+      </button>
+
+      <button type="button" class="btn btn btn-info btn-lg btn-block">
+        <a [routerLink]='["advjava"]' routerLinkActive='active'>
+          Advance Java
+        </a>
+      </button>
+    </div>
+
+  </div>
+
+</section>
+<br />
+<router-outlet></router-outlet>
+
+<app-footer></app-footer>
+

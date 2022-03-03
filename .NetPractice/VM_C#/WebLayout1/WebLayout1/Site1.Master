@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebLayout1.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Content/StyleSheet1.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <header>
+  <h1>My Website</h1>
+  <p>Resize the browser window to see the effect.</p>
+</header>
+<nav>
+  <a href="Home.aspx">Home</a>
+  <a href="About.aspx">About</a>
+  <a href="Contact.aspx">About</a>
+  
+</nav>
+
+        
+  <article>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+    </asp:ContentPlaceHolder>
+  </article>
+    </form>
+    <footer>
+  <p>Copyrights are reserved</p>
+</footer>
+</body>
+</html>

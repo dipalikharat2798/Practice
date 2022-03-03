@@ -1,0 +1,174 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Person;
+namespace Person
+{
+    public class Movie
+    {
+        public string Moviename { get; set; }
+        public string dimension { get; set; }
+        public string direct { get; set; }
+        public string runtime { get; set; }
+        public string type { get; set; }
+        public string release { get; set; }
+        public int tim { get; set; }
+
+        //initialize constructor
+        public Movie()
+        {
+            this.tim = 0;
+            this.Moviename = "";
+            this.dimension = "";
+            this.direct = "";
+            this.runtime = "";
+            this.type = "";
+            this.release = "";
+        }
+        // Movie[] m = new Movie[4];
+        public void Playing()
+        {
+
+            Movie[] m = new Movie[4];
+            int i;
+            m[0].Moviename = "Dangal";
+            m[0].release = "11 Jan 2021";
+            m[0].runtime = "2 hr 20min";
+            m[0].type = "Drama film";
+            m[0].direct = " Nitesh Tiwari";
+            m[0].dimension = "2D";
+
+            m[0].Moviename = "2.0";
+            m[0].release = "12 Jan 2021";
+            m[0].runtime = "2 hr 30min";
+            m[0].type = "fiction action film ";
+            m[0].direct = " S. Shankar";
+            m[0].dimension = "3D";
+
+            m[0].Moviename = "Airlift";
+            m[0].release = "12 Jan 2021";
+            m[0].runtime = "2 hr 13 min";
+            m[0].type = "Action drama film";
+            m[0].direct = " Raja Menon";
+            m[0].dimension = "2D";
+
+            m[0].Moviename = "K.G.F: Chapter 2";
+            m[0].release = "13 Jan 2021";
+            m[0].runtime = "2hr 31min";
+            m[0].type = "Action Drama film";
+            m[0].direct = "Prashanth Neel";
+            m[0].dimension = "3D";
+
+            Console.WriteLine("Select the Movie: ");
+            for (int j = 0; j < 4; j++)
+            {
+
+                //Console.WriteLine(" ____________________________________________________________ ");
+                Console.WriteLine("\n\t\t Movie No : {0}", j + 1);
+                Console.WriteLine("\t\t***************");
+                Console.WriteLine(" ____________________________________________________________ ");
+                Console.WriteLine("\n  Movie Title: " + m[j].Moviename);
+                Console.WriteLine("  Release Date : " + m[j].release);
+                Console.WriteLine("  Runtime      : " + m[j].runtime);
+                Console.WriteLine("  Directed By  : " + m[j].direct);
+                Console.WriteLine("  Genre        : " + m[j].type);
+                Console.WriteLine("  Screen       : " + m[j].dimension);
+                Console.WriteLine(" ____________________________________________________________ ");
+                Console.WriteLine();
+                Console.WriteLine("\t\t Select 1 for Movie1 \n\t\t Select 2 for Movie2 \n\t\t Select 3 for Movie3 \n\t\t Select 4" +
+                    " for Movie4");
+                i = Convert.ToInt32(Console.ReadLine());
+                if (i == 1)
+                {
+                    m[0].Moviename = "Dangal";
+                    m[0].release = "11 Jan 2021";
+                    m[0].runtime = "2 hr 20min";
+                    m[0].type = "Drama film";
+                    m[0].direct = " Nitesh Tiwari";
+                    m[0].dimension = "2D";
+                    tim = 1;
+                    Moviename = "Dangal";
+                    release = "11 Jan 2021";
+                    runtime = "2 hr 20min";
+                    type = "Drama film";
+                    direct = " Nitesh Tiwari";
+                    dimension = "2D";
+                }
+                else if (i == 2) {
+
+                    m[0].Moviename = "2.0";
+                    m[0].release = "12 Jan 2021";
+                    m[0].runtime = "2 hr 30min";
+                    m[0].type = "fiction action film ";
+                    m[0].direct = " S. Shankar";
+                    m[0].dimension = "3D";
+                    tim = 2;
+                    Moviename = "2.0";
+                    release = "12 Jan 2021";
+                    runtime = "2 hr 30min";
+                    type = "fiction action film ";
+                    direct = " S. Shankar";
+                    dimension = "3D";
+                }
+                else if (i == 3)
+                {
+                    m[0].Moviename = "Airlift";
+                    m[0].release = "12 Jan 2021";
+                    m[0].runtime = "2 hr 13 min";
+                    m[0].type = "Action drama film";
+                    m[0].direct = " Raja Menon";
+                    m[0].dimension = "2D";
+                    tim = 3;
+                    Moviename = "Airlift";
+                    release = "12 Jan 2021";
+                    runtime = "2 hr 13 min";
+                    type = "Action drama film";
+                    direct = " Raja Menon";
+                    dimension = "2D";
+                }
+                else if (i == 4)
+                {
+                    Moviename = "Airlift";
+                    m[0].release = "12 Jan 2021";
+                    m[0].runtime = "2 hr 13 min";
+                    m[0].type = "Action drama film";
+                    m[0].direct = " Raja Menon";
+                    m[0].dimension = "2D";
+                    tim = 4;
+                    Moviename = "Airlift";
+                    release = "12 Jan 2021";
+                    runtime = "2 hr 13 min";
+                    type = "Action drama film";
+                    direct = " Raja Menon";
+                    dimension = "2D";
+
+                }
+                else
+                {
+                    Console.WriteLine("Enter Proper Choice");
+                }
+            }
+        }
+    }
+}
+catch(InSufficientBalanceException se)
+{
+Console.WriteLine(se.Message);
+Console.WriteLine("Transaction Aborted");
+}
+catch(MinimumBalanceException me)
+{
+Console.WriteLine(me.Message);
+Console.WriteLine("Transaction Aborted");
+}
+catch(Exception ex)
+{
+Console.WriteLine(ex.Message);
+}
+finally
+{
+Console.WriteLine("Thanks for visiting ....");
+}
+}

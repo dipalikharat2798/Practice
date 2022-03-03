@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ARSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AirCrafts">
+    <Key>
+      <PropertyRef Name="AcID" />
+    </Key>
+    <Property Name="AcID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AcNumber" Type="varchar" MaxLength="32" Nullable="false" />
+    <Property Name="Capacity" Type="int" Nullable="false" />
+    <Property Name="MfdBy" Type="varchar" MaxLength="128" Nullable="false" />
+    <Property Name="MfdOn" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AirFare">
+    <Key>
+      <PropertyRef Name="AfID" />
+    </Key>
+    <Property Name="AfID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Route" Type="int" />
+    <Property Name="Fare" Type="money" />
+    <Property Name="FSC" Type="money" />
+  </EntityType>
+  <EntityType Name="Flight_Schedule">
+    <Key>
+      <PropertyRef Name="FlID" />
+    </Key>
+    <Property Name="FlID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FlightDate" Type="datetime" />
+    <Property Name="Departure" Type="datetime" />
+    <Property Name="Arrival" Type="datetime" />
+    <Property Name="AirCraft" Type="int" />
+    <Property Name="NetFare" Type="int" />
+  </EntityType>
+  <EntityType Name="Route">
+    <Key>
+      <PropertyRef Name="RtID" />
+    </Key>
+    <Property Name="RtID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Airport" Type="varchar" MaxLength="32" Nullable="false" />
+    <Property Name="Destination" Type="varchar" MaxLength="32" Nullable="false" />
+    <Property Name="RouteCode" Type="varchar" MaxLength="32" Nullable="false" />
+  </EntityType>
+  <Association Name="fk_AirCraft">
+    <End Role="AirCrafts" Type="Self.AirCrafts" Multiplicity="0..1" />
+    <End Role="Flight_Schedule" Type="Self.Flight_Schedule" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AirCrafts">
+        <PropertyRef Name="AcID" />
+      </Principal>
+      <Dependent Role="Flight_Schedule">
+        <PropertyRef Name="AirCraft" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_NetFare">
+    <End Role="AirFare" Type="Self.AirFare" Multiplicity="0..1" />
+    <End Role="Flight_Schedule" Type="Self.Flight_Schedule" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AirFare">
+        <PropertyRef Name="AfID" />
+      </Principal>
+      <Dependent Role="Flight_Schedule">
+        <PropertyRef Name="NetFare" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Route">
+    <End Role="Route" Type="Self.Route" Multiplicity="0..1" />
+    <End Role="AirFare" Type="Self.AirFare" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Route">
+        <PropertyRef Name="RtID" />
+      </Principal>
+      <Dependent Role="AirFare">
+        <PropertyRef Name="Route" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ARSModelStoreContainer">
+    <EntitySet Name="AirCrafts" EntityType="Self.AirCrafts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AirFare" EntityType="Self.AirFare" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Flight_Schedule" EntityType="Self.Flight_Schedule" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Route" EntityType="Self.Route" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="fk_AirCraft" Association="Self.fk_AirCraft">
+      <End Role="AirCrafts" EntitySet="AirCrafts" />
+      <End Role="Flight_Schedule" EntitySet="Flight_Schedule" />
+    </AssociationSet>
+    <AssociationSet Name="fk_NetFare" Association="Self.fk_NetFare">
+      <End Role="AirFare" EntitySet="AirFare" />
+      <End Role="Flight_Schedule" EntitySet="Flight_Schedule" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Route" Association="Self.fk_Route">
+      <End Role="Route" EntitySet="Route" />
+      <End Role="AirFare" EntitySet="AirFare" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

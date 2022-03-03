@@ -1,0 +1,7 @@
+C:\Users\dipalik\Music\VM_C#\DayFive\DeligateEx\DeligateEx\bin\Debug\DeligateEx.exe.config
+C:\Users\dipalik\Music\VM_C#\DayFive\DeligateEx\DeligateEx\bin\Debug\DeligateEx.exe
+C:\Users\dipalik\Music\VM_C#\DayFive\DeligateEx\DeligateEx\bin\Debug\DeligateEx.pdb
+C:\Users\dipalik\Music\VM_C#\DayFive\DeligateEx\DeligateEx\obj\Debug\DeligateEx.csprojAssemblyReference.cache
+C:\Users\dipalik\Music\VM_C#\DayFive\DeligateEx\DeligateEx\obj\Debug\DeligateEx.csproj.CoreCompileInputs.cache
+C:\Users\dipalik\Music\VM_C#\DayFive\DeligateEx\DeligateEx\obj\Debug\DeligateEx.exe
+C:\Users\dipalik\Music\VM_C#\DayFive\DeligateEx\DeligateEx\obj\Debug\DeligateEx.pdb

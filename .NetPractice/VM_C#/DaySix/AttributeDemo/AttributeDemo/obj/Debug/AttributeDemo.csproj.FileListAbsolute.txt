@@ -1,0 +1,6 @@
+C:\Users\dipalik\Music\VM_C#\DaySix\AttributeDemo\AttributeDemo\bin\Debug\AttributeDemo.exe.config
+C:\Users\dipalik\Music\VM_C#\DaySix\AttributeDemo\AttributeDemo\bin\Debug\AttributeDemo.exe
+C:\Users\dipalik\Music\VM_C#\DaySix\AttributeDemo\AttributeDemo\bin\Debug\AttributeDemo.pdb
+C:\Users\dipalik\Music\VM_C#\DaySix\AttributeDemo\AttributeDemo\obj\Debug\AttributeDemo.csproj.CoreCompileInputs.cache
+C:\Users\dipalik\Music\VM_C#\DaySix\AttributeDemo\AttributeDemo\obj\Debug\AttributeDemo.exe
+C:\Users\dipalik\Music\VM_C#\DaySix\AttributeDemo\AttributeDemo\obj\Debug\AttributeDemo.pdb

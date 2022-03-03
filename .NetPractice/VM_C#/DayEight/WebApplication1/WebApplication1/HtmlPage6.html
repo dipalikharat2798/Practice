@@ -1,0 +1,142 @@
+﻿[12:12 PM] samatha (Guest)
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <title></title>
+
+</head>
+
+<body>
+    <script type="text/javascript">
+
+        function Add() {
+            var num1 = document.getElementById("Num1").value
+
+            var num2 = document.getElementById("Num2").value
+
+            var result = parseInt(num1) + parseInt(num2)
+
+            document.getElementById("Result").value = result
+
+        }
+
+        function Substract() {
+            var num1 = document.getElementById("Num1").value
+
+            var num2 = document.getElementById("Num2").value
+
+            var result = parseInt(num1) - parseInt(num2)
+
+            document.getElementById("Result").value = result
+
+        } function Multiply() {
+            var num1 = document.getElementById("Num1").value
+
+            var num2 = document.getElementById("Num2").value
+
+            var result = parseInt(num1) * parseInt(num2)
+
+            document.getElementById("Result").value = result
+
+        } function Divide() {
+            var num1 = document.getElementById("Num1").value
+
+            var num2 = document.getElementById("Num2").value
+
+            var result = parseInt(num1) / parseInt(num2)
+
+            document.getElementById("Result").value = result
+
+        }
+
+    </script>
+
+    <form>
+
+        <table>
+
+            <tr>
+
+                <td>Enter a Number</td>
+
+                <td>
+
+                    <input id="Num1" type="text" value="" />
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>Enter a Number</td>
+
+                <td>
+
+                    <input id="Num2" type="text" value="0" />
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>Result</td>
+
+                <td>
+
+                    <input id="Result" type="text" value="0" />
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+
+                    <button type="button" onclick="Add()">
+
+                        Add
+
+                    </button>
+                </td>
+                <td>
+                    <button type="button" onclick="Substract()">
+
+                        Substract
+
+                    </button>
+
+                </td>
+                <td>
+
+                    <button type="button" onclick="Multiply()">
+
+                        Multiply
+
+                    </button>
+                </td>
+                <td>
+                    <button type="button" onclick="Divide()">
+
+                        Divide
+
+                    </button>
+
+                </td>
+
+            </tr>
+
+        </table>
+
+    </form> 
+</body>
+
+</html>
+

@@ -1,0 +1,31 @@
+data we have to save to firestore-
+1.startdayTime
+2.mealstartTime
+3.mealEndTime
+4.endofdayTime
+5.extendedbreakTime
+
+6.totalWorkTime=(currentLocaleTime-startTime)-totalBreakTime
+7.totalBreakTime= (mealstartTime-mealEndTime)+extendedBreak(if taken)
+
+
+Cases to startTimer:
+1.onclick of start
+2.everytime user opens the app
+3.after returning from break
+
+cases to Stop Timer:
+1.User close the app
+2.after taken breaks
+3.endofday
+
+
+values Storing in SP:
+Day-START/STOP
+BREAK-START/STOP
+DayStartDate-getcurrentlocaleDate
+BreakTime
+
+MEALBREAK 
+1st timer stop second start
+mealbreakstarttime , mealbreakstoptime and totalduration

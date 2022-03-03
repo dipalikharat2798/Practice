@@ -1,0 +1,74 @@
+﻿body {
+    background-image: url("Cat1.jfif");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #464646;
+    padding: 30px;
+    background-size: cover;
+    background-color: #464646;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+#body {
+    padding: 10px;
+    padding-bottom: 60px; /* Height of the footer */
+    padding: 20px;
+    
+    background: #000000;
+    
+}
+#container {
+    min-height: 100%;
+    position: relative;
+}
+
+
+#footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/
+    height: 40px;
+    background: grey;
+}
+
+#container {
+    height: 100%;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #555555;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+}
+
+img {
+    
+    padding: 5px;
+    width: 70px;
+}
+
+
+li {
+    float: left;
+}
+
+    li a {
+        color: white;
+        display: block;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+    }
+
+        li a:hover {
+            background-color: black;
+        }

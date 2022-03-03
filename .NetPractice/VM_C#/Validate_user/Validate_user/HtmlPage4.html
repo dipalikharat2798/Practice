@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Project 4</title>
+
+    <style type="text/css">
+       /*.error {
+            border: 2px;
+            border-color:red;
+        }*/
+
+    </style>
+</head>
+
+<body>
+    <form name="myForm" onsubmit="return validateForm()">
+        Phone Number:<input type="text" id="phone">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <script type="text/javascript">
+            function validateForm() {
+                return checkPhone();
+            }
+
+            function checkPhone() {
+                var phone = document.forms["myForm"]["phone"].value;
+                var phoneNum = phone.replace(/[^\d]/g, '');
+                if(phoneNum.length > 6 && phoneNum.length < 11) {
+                    return true;
+            }
+                else if(phoneNum.length < 7 || phoneNum.length > 10) {
+                    //document.getElementById("phone").className = document.getElementById("phone").className + " error";
+                    //document.getElementById("phone").className = document.getElementById("phone").className.replace(" error", "");
+                document.getElementById("phone").style.borderColor="red";
+
+                return false;
+
+                }
+            }
+    </script>
+</body>
+</html>

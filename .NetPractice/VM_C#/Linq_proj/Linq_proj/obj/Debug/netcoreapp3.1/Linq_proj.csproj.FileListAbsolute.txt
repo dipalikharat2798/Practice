@@ -1,0 +1,3 @@
+C:\Users\dipalik\Music\VM_C#\Linq_proj\Linq_proj\obj\Debug\netcoreapp3.1\Linq_proj.AssemblyInfoInputs.cache
+C:\Users\dipalik\Music\VM_C#\Linq_proj\Linq_proj\obj\Debug\netcoreapp3.1\Linq_proj.AssemblyInfo.cs
+C:\Users\dipalik\Music\VM_C#\Linq_proj\Linq_proj\obj\Debug\netcoreapp3.1\Linq_proj.csproj.CoreCompileInputs.cache

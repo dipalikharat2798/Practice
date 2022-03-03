@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Navigation</title>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <style>
+        body {
+            background-image:url(Back.jfif);
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="container">
+
+        <div id="body">
+            <ul>
+                <li><img src="Logo.png"></li>
+                <li><a href="Home1.html">Home</a></li>
+                <li><a href="Form.html">Form</a></li>
+                <li><a href="Table.html">Table</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Video.html">Video</a></li>
+                <li><a href="Audio.html">Audio</a></li>
+                <li><a href="Location1.html">YourLocation</a></li>
+            </ul>
+        </div>
+        <p>Click the button to get your coordinates.</p>
+
+        <button onclick="getLocation()">Try It</button>
+
+        <p id="demo"></p>
+
+        <script>
+            var x = document.getElementById("demo");
+
+            function getLocation() {
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(showPosition, showError);
+                } else {
+                    x.innerHTML = "Geolocation is not supported by this browser.";
+                }
+            }
+
+            function showPosition(position) {
+                x.innerHTML = "Latitude: " + position.coords.latitude +
+                    "<br>Longitude: " + position.coords.longitude;
+            }
+
+            function showError(error) {
+                switch (error.code) {
+                    case error.PERMISSION_DENIED:
+                        x.innerHTML = "User denied the request for Geolocation."
+                        break;
+                    case error.POSITION_UNAVAILABLE:
+                        x.innerHTML = "Location information is unavailable."
+                        break;
+                    case error.TIMEOUT:
+                        x.innerHTML = "The request to get user location timed out."
+                        break;
+                    case error.UNKNOWN_ERROR:
+                        x.innerHTML = "An unknown error occurred."
+                        break;
+                }
+            }
+        </script>
+
+        <div id="footer">
+            <ul>
+                <li>
+                    <a href="#!" class="text-dark">Link 1</a>
+                </li>
+                <li>
+                    <a href="#!" class="text-dark">Link 2</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

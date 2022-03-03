@@ -1,0 +1,7 @@
+C:\Users\dipalik\Music\VM_C#\IndexerDemo\IndexerDemo\bin\Debug\IndexerDemo.exe.config
+C:\Users\dipalik\Music\VM_C#\IndexerDemo\IndexerDemo\bin\Debug\IndexerDemo.exe
+C:\Users\dipalik\Music\VM_C#\IndexerDemo\IndexerDemo\bin\Debug\IndexerDemo.pdb
+C:\Users\dipalik\Music\VM_C#\IndexerDemo\IndexerDemo\obj\Debug\IndexerDemo.csprojAssemblyReference.cache
+C:\Users\dipalik\Music\VM_C#\IndexerDemo\IndexerDemo\obj\Debug\IndexerDemo.csproj.CoreCompileInputs.cache
+C:\Users\dipalik\Music\VM_C#\IndexerDemo\IndexerDemo\obj\Debug\IndexerDemo.exe
+C:\Users\dipalik\Music\VM_C#\IndexerDemo\IndexerDemo\obj\Debug\IndexerDemo.pdb

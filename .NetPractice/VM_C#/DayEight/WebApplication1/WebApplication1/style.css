@@ -1,0 +1,19 @@
+﻿
+body {
+    background-image: url(Back.jfif);
+}
+
+table, td, th {
+    border: 1px solid white;
+    text-align: left;
+    text-decoration-color: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 15px;
+}

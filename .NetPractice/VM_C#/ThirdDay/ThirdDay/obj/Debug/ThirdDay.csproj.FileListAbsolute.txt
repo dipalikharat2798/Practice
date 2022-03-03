@@ -1,0 +1,7 @@
+C:\Users\dipalik\Music\VM_C#\ThirdDay\ThirdDay\obj\Debug\ThirdDay.csprojAssemblyReference.cache
+C:\Users\dipalik\Music\VM_C#\ThirdDay\ThirdDay\obj\Debug\ThirdDay.csproj.CoreCompileInputs.cache
+C:\Users\dipalik\Music\VM_C#\ThirdDay\ThirdDay\bin\Debug\ThirdDay.exe.config
+C:\Users\dipalik\Music\VM_C#\ThirdDay\ThirdDay\bin\Debug\ThirdDay.exe
+C:\Users\dipalik\Music\VM_C#\ThirdDay\ThirdDay\bin\Debug\ThirdDay.pdb
+C:\Users\dipalik\Music\VM_C#\ThirdDay\ThirdDay\obj\Debug\ThirdDay.exe
+C:\Users\dipalik\Music\VM_C#\ThirdDay\ThirdDay\obj\Debug\ThirdDay.pdb

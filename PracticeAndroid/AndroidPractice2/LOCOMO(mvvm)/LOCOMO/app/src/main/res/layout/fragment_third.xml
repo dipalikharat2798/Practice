@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/header_layout"
+    android:background="@color/lightblue"
+    android:orientation="vertical"
+    tools:context=".fragment.ThirdFragment">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/lightblue1"
+        android:text="Day Started"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/lightpink"
+        android:text="Check Out"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="Timer Away"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/breakTimer_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="00:00:01"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/returnFromBrek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/purple"
+        android:text="Return From Break"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/purple"
+        android:text="Extend Break"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+
+    <Button
+        android:id="@+id/closeOutDay_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/purple_700"
+        android:padding="8dp"
+        android:text="Close Out Day-No Return"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+</LinearLayout>

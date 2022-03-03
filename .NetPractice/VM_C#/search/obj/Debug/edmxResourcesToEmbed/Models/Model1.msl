@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ARSModelStoreContainer" CdmEntityContainer="ARSEntities">
+    <EntitySetMapping Name="AirCrafts">
+      <EntityTypeMapping TypeName="ARSModel.AirCraft">
+        <MappingFragment StoreEntitySet="AirCrafts">
+          <ScalarProperty Name="AcID" ColumnName="AcID" />
+          <ScalarProperty Name="AcNumber" ColumnName="AcNumber" />
+          <ScalarProperty Name="Capacity" ColumnName="Capacity" />
+          <ScalarProperty Name="MfdBy" ColumnName="MfdBy" />
+          <ScalarProperty Name="MfdOn" ColumnName="MfdOn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AirFares">
+      <EntityTypeMapping TypeName="ARSModel.AirFare">
+        <MappingFragment StoreEntitySet="AirFare">
+          <ScalarProperty Name="AfID" ColumnName="AfID" />
+          <ScalarProperty Name="Route" ColumnName="Route" />
+          <ScalarProperty Name="Fare" ColumnName="Fare" />
+          <ScalarProperty Name="FSC" ColumnName="FSC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Flight_Schedule">
+      <EntityTypeMapping TypeName="ARSModel.Flight_Schedule">
+        <MappingFragment StoreEntitySet="Flight_Schedule">
+          <ScalarProperty Name="FlID" ColumnName="FlID" />
+          <ScalarProperty Name="FlightDate" ColumnName="FlightDate" />
+          <ScalarProperty Name="Departure" ColumnName="Departure" />
+          <ScalarProperty Name="Arrival" ColumnName="Arrival" />
+          <ScalarProperty Name="AirCraft" ColumnName="AirCraft" />
+          <ScalarProperty Name="NetFare" ColumnName="NetFare" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Routes">
+      <EntityTypeMapping TypeName="ARSModel.Route">
+        <MappingFragment StoreEntitySet="Route">
+          <ScalarProperty Name="RtID" ColumnName="RtID" />
+          <ScalarProperty Name="Airport" ColumnName="Airport" />
+          <ScalarProperty Name="Destination" ColumnName="Destination" />
+          <ScalarProperty Name="RouteCode" ColumnName="RouteCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

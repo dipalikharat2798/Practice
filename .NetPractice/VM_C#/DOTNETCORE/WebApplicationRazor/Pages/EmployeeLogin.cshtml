@@ -1,0 +1,14 @@
+﻿@page
+@model WebApplicationRazor.Pages.EmployeeLoginModel
+@{
+}
+@Model.ErrorMessage
+@Model.CancelMessage
+<form method="post">
+    <label>Enter UserName</label>
+    <input asp-for="Login.UserName" />
+    <label>Enter Password</label>
+    <input asp-for="Login.Password" />
+    <input type="submit" value="Login" />
+    <input type="submit" value="Cancel" asp-page-handler="Cancel" />
+</form>

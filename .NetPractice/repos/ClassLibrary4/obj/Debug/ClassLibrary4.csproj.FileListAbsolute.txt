@@ -1,0 +1,6 @@
+C:\Users\dipalik\source\repos\ClassLibrary4\bin\Debug\ClassLibrary4.dll
+C:\Users\dipalik\source\repos\ClassLibrary4\bin\Debug\ClassLibrary4.pdb
+C:\Users\dipalik\source\repos\ClassLibrary4\obj\Debug\ClassLibrary4.csprojAssemblyReference.cache
+C:\Users\dipalik\source\repos\ClassLibrary4\obj\Debug\ClassLibrary4.csproj.CoreCompileInputs.cache
+C:\Users\dipalik\source\repos\ClassLibrary4\obj\Debug\ClassLibrary4.dll
+C:\Users\dipalik\source\repos\ClassLibrary4\obj\Debug\ClassLibrary4.pdb

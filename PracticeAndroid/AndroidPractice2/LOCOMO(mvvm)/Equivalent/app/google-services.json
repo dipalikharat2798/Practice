@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "129554527075",
+    "project_id": "eqivalent-1caaf",
+    "storage_bucket": "eqivalent-1caaf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129554527075:android:022737d78c583730215956",
+        "android_client_info": {
+          "package_name": "com.example.equivalent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129554527075-gtcfntgkr5pcu8rm0mtidcu9ntdf5qpm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALtYjoCmv4_027tUJdtiR2mpguWUS5yeI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129554527075-gtcfntgkr5pcu8rm0mtidcu9ntdf5qpm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

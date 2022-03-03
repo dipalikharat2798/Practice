@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="VMDB2ModelStoreContainer" CdmEntityContainer="VMDB2Entities">
+    <EntitySetMapping Name="Students">
+      <EntityTypeMapping TypeName="VMDB2Model.Student">
+        <MappingFragment StoreEntitySet="Student">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Marks" ColumnName="Marks" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="VMDB2Model.Student">
+        <ModificationFunctionMapping>
+          <InsertFunction FunctionName="VMDB2Model.Store.AddStudent">
+            <ScalarProperty Name="ID" ParameterName="Id" />
+            <ScalarProperty Name="Marks" ParameterName="Marks" />
+            <ScalarProperty Name="Name" ParameterName="Name" />
+          </InsertFunction>
+          <DeleteFunction FunctionName="VMDB2Model.Store.DeleteStudentById">
+            <ScalarProperty Name="ID" ParameterName="Id" />
+          </DeleteFunction>
+        </ModificationFunctionMapping>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="AddStudent" FunctionName="VMDB2Model.Store.AddStudent" />
+    <FunctionImportMapping FunctionImportName="DeleteStudentById" FunctionName="VMDB2Model.Store.DeleteStudentById" />
+    <FunctionImportMapping FunctionImportName="GetAllStudents" FunctionName="VMDB2Model.Store.GetAllStudents" />
+    <FunctionImportMapping FunctionImportName="GetStudentByID" FunctionName="VMDB2Model.Store.GetStudentByID" />
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,2 @@
+C:\Users\dipalik\Music\VM_C#\UnitTestMVCTests2\obj\Debug\UnitTestMVCTests2.csprojAssemblyReference.cache
+C:\Users\dipalik\Music\VM_C#\UnitTestMVCTests2\obj\Debug\UnitTestMVCTests2.csproj.CoreCompileInputs.cache

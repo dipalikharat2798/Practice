@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "Page3";
+}
+
+
+<h2>Page3</h2>
+<form>
+    Customer Details
+    <fieldset>
+        Customer Id : <input type="text" value=@Model.customer.CustomerID /><br />
+        Customer Address : <input type="text" value=@Model.customer.Address /><br />
+        Customer EmailID : <input type="text" value=@Model.customer.EmailID /><br />
+    </fieldset>
+</form>
+
+<form>
+    Supplier Details
+    <fieldset>
+        Supplier ID : <input type="text" value=@Model.supplier.SupplierID /><br />
+        Supplier Address : <input type="text" value=@Model.supplier.Address /><br />
+        Supplier EmailID : <input type="text" value=@Model.supplier.EmailID /><br />
+    </fieldset>
+</form>

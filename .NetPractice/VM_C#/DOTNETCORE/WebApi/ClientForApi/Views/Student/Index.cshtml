@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<table border="1" id="table1">
+    <tr>
+        <th>student ID</th>
+        <th>student Name</th>
+        <th>marks</th>
+    </tr>
+</table>
+
+<input type="button" value="DisplayStudents" id="button1" />
+
+<span id="ResponseSpan">  </span>
+
+<script type="text/javascript">
+    $(function () {
+
+
+
+        $("#button1").click(
+            function () {
+
+
+
+                //ajax code
+                $.ajax({
+                    url: 'https://localhost:44314/api/Students',
+                    data: {},
+                    type: "get",
+                    success: function (response) {
+
+
+
+                        $("#table1 tr:gt(0)").remove();
+                        $.each(response, function (i, item) {
+                            $("#table1").append
+                                ("<tr><td>" + item.Id + "</td> <td>" + item.Name + "</td> <td>" + item.Marks + "</td>  </tr>");
+                        });
+
+
+
+                    },
+
+
+
+                    error: function (jqXHR, textStatus, err) {
+                        $("#ResponseSpan").html(err);
+                    }
+                });
+
+
+
+            });
+
+
+
+    });</script>

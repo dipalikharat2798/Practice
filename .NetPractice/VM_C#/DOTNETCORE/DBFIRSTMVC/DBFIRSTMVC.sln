@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBFIRSTMVC", "DBFIRSTMVC.csproj", "{8FB6A949-C1E1-4813-9DB8-A8B8B7E0B8AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FB6A949-C1E1-4813-9DB8-A8B8B7E0B8AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FB6A949-C1E1-4813-9DB8-A8B8B7E0B8AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FB6A949-C1E1-4813-9DB8-A8B8B7E0B8AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FB6A949-C1E1-4813-9DB8-A8B8B7E0B8AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36EF22D1-8E0F-40F7-9832-D8096250E250}
+	EndGlobalSection
+EndGlobal

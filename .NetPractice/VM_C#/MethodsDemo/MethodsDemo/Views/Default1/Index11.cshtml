@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "Index11";
+}
+
+<h2>Index11</h2>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Index</title>
+    <script src="@Url.Content("/Scripts/jquery-3.4.1.min.js")" type="text/javascript">
+    </script>
+
+    <script type="text/javascript">
+        //this function executes when the page loads on the browser
+        jQuery(function () {
+
+            $("#Button1").click(
+                function () {
+                    alert("Thanks for clicking me");
+                });
+
+        });
+    </script>
+</head>
+<body>
+    <div>
+        <input id="Button1" type="button" value="Click Me" />
+    </div>
+</body>
+</html>
+

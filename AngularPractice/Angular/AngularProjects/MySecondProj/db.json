@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "title": "dipali",
+      "body": "employee",
+      "id": 1
+    },
+    {
+      "title": "neha",
+      "body": "employee",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+com/example/background/BuildConfig.java
+ com.example.background.BuildConfig
+com/example/background/BlurActivity.java
+ com.example.background.BlurActivity
+com/example/background/SelectImageActivity.java
+ com.example.background.SelectImageActivity
+com/example/background/workers/BlurWorker.java
+ com.example.background.workers.BlurWorker
+com/example/background/workers/CleanupWorker.java
+ com.example.background.workers.CleanupWorker
+com/example/background/BlurViewModel.java
+ com.example.background.BlurViewModel
+com/example/background/Constants.java
+ com.example.background.Constants
+com/example/background/workers/SaveImageToFileWorker.java
+ com.example.background.workers.SaveImageToFileWorker
+com/example/background/workers/WorkerUtils.java
+ com.example.background.workers.WorkerUtils
+com/example/background/databinding/ActivitySelectBinding.java
+ com.example.background.databinding.ActivitySelectBinding
+com/example/background/databinding/ActivityBlurBinding.java
+ com.example.background.databinding.ActivityBlurBinding

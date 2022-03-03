@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Qasz0CTut3mSLkWrghqkls6+l4csUGN8kJus96WjCEj2ixjFnvUp9GZqXyhDopfJseWPut3hUClFsMSdhQT/dw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dipalik\\source\\repos\\PartsLimitedShared\\PartsLimitedShared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dipalik\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\dipalik\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

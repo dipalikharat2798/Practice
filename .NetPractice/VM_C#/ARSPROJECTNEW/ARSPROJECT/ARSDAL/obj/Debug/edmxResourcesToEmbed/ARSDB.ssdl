@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ARSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Admin">
+    <Key>
+      <PropertyRef Name="AdminID" />
+    </Key>
+    <Property Name="AdminID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="32" Nullable="false" />
+    <Property Name="Branch" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AirCrafts">
+    <Key>
+      <PropertyRef Name="AcID" />
+    </Key>
+    <Property Name="AcID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AcNumber" Type="varchar" MaxLength="32" Nullable="false" />
+    <Property Name="Capacity" Type="int" Nullable="false" />
+    <Property Name="MfdBy" Type="varchar" MaxLength="128" Nullable="false" />
+    <Property Name="MfdOn" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AirFare">
+    <Key>
+      <PropertyRef Name="AfID" />
+    </Key>
+    <Property Name="AfID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Route" Type="int" />
+    <Property Name="Fare" Type="money" />
+    <Property Name="FSC" Type="money" />
+  </EntityType>
+  <EntityType Name="Branches">
+    <Key>
+      <PropertyRef Name="BrID" />
+    </Key>
+    <Property Name="BrID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Center" Type="varchar" MaxLength="16" Nullable="false" />
+    <Property Name="Address" Type="varchar" MaxLength="32" Nullable="false" />
+    <Property Name="State" Type="int" />
+  </EntityType>
+  <EntityType Name="Charges">
+    <Key>
+      <PropertyRef Name="ChID" />
+    </Key>
+    <Property Name="ChID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="varchar" MaxLength="32" />
+    <Property Name="Amount" Type="int" />
+    <Property Name="Description" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Contact_Details">
+    <Key>
+      <PropertyRef Name="CnID" />
+    </Key>
+    <Property Name="CnID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="16" Nullable="false" />
+    <Property Name="Cell" Type="varchar" MaxLength="16" Nullable="false" />
+    <Property Name="Tel" Type="varchar" MaxLength="16" />
+    <Property Name="Street" Type="varchar" MaxLength="64" />
+    <Property Name="State" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Countries">
+    <Key>
+      <PropertyRef Name="CtID" />
+    </Key>
+    <Property Name="CtID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CountryName" Type="varchar" MaxLength="32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Discounts">
+    <Key>
+      <PropertyRef Name="DiID" />
+    </Key>
+    <Property Name="DiID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="varchar" MaxLength="32" />
+    <Property Name="Amount" Type="int" />
+    <Property Name="Description" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Flight_Schedule">
+    <Key>
+      <PropertyRef Name="FlID" />
+    </Key>
+    <Property Name="FlID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FlightDate" Type="datetime" />
+    <Property Name="Departure" Type="datetime" />
+    <Property Name="Arrival" Type="datetime" />
+    <Property Name="AirCraft" Type="int" />
+    <Property Name="NetFare" Type="int" />
+  </EntityType>
+  <EntityType Name="Passengers">
+    <Key>
+      <PropertyRef Name="PsID" />
+    </Key>
+    <Property Name="PsID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="32" Nullable="false" />
+    <Property Name="Address" Type="varchar" MaxLength="64" Nullable="false" />
+    <Property Name="Age" Type="int" Nullable="false" />
+    <Property Name="Nationality" Type="varchar" MaxLength="16" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Route">
+    <Key>
+      <PropertyRef Name="RtID" />
+    </Key>
+    <Property Name="RtID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Airport" Type="varchar" MaxLength="32" Nullable="false" />
+    <Property Name="Destination" Type="varchar" MaxLength="32" Nullable="false" />
+    <Property Name="RouteCode" Type="varchar" MaxLength="32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="State">
+    <Key>
+      <PropertyRef Name="StID" />
+    </Key>
+    <Property Name="StID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StateName" Type="varchar" MaxLength="32" />
+    <Property Name="Country" Type="int" />
+  </EntityType>
+  <EntityType Name="Transactions">
+    <Key>
+      <PropertyRef Name="TsID" />
+    </Key>
+    <Property Name="TsID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BookingDate" Type="datetime" />
+    <Property Name="DepartureDate" Type="datetime" />
+    <Property Name="Passenger" Type="int" />
+    <Property Name="Flight" Type="int" />
+    <Property Name="Charges" Type="int" />
+    <Property Name="Discount" Type="int" />
+  </EntityType>
+  <Association Name="fk_AirCraft">
+    <End Role="AirCrafts" Type="Self.AirCrafts" Multiplicity="0..1" />
+    <End Role="Flight_Schedule" Type="Self.Flight_Schedule" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AirCrafts">
+        <PropertyRef Name="AcID" />
+      </Principal>
+      <Dependent Role="Flight_Schedule">
+        <PropertyRef Name="AirCraft" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Branch">
+    <End Role="Branches" Type="Self.Branches" Multiplicity="1" />
+    <End Role="Admin" Type="Self.Admin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Branches">
+        <PropertyRef Name="BrID" />
+      </Principal>
+      <Dependent Role="Admin">
+        <PropertyRef Name="Branch" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Charges">
+    <End Role="Charges" Type="Self.Charges" Multiplicity="0..1" />
+    <End Role="Transactions" Type="Self.Transactions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Charges">
+        <PropertyRef Name="ChID" />
+      </Principal>
+      <Dependent Role="Transactions">
+        <PropertyRef Name="Charges" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Country">
+    <End Role="Countries" Type="Self.Countries" Multiplicity="0..1" />
+    <End Role="State" Type="Self.State" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Countries">
+        <PropertyRef Name="CtID" />
+      </Principal>
+      <Dependent Role="State">
+        <PropertyRef Name="Country" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Discount">
+    <End Role="Discounts" Type="Self.Discounts" Multiplicity="0..1" />
+    <End Role="Transactions" Type="Self.Transactions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Discounts">
+        <PropertyRef Name="DiID" />
+      </Principal>
+      <Dependent Role="Transactions">
+        <PropertyRef Name="Discount" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Flight">
+    <End Role="Flight_Schedule" Type="Self.Flight_Schedule" Multiplicity="0..1" />
+    <End Role="Transactions" Type="Self.Transactions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Flight_Schedule">
+        <PropertyRef Name="FlID" />
+      </Principal>
+      <Dependent Role="Transactions">
+        <PropertyRef Name="Flight" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_NetFare">
+    <End Role="AirFare" Type="Self.AirFare" Multiplicity="0..1" />
+    <End Role="Flight_Schedule" Type="Self.Flight_Schedule" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AirFare">
+        <PropertyRef Name="AfID" />
+      </Principal>
+      <Dependent Role="Flight_Schedule">
+        <PropertyRef Name="NetFare" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Passenger">
+    <End Role="Passengers" Type="Self.Passengers" Multiplicity="0..1" />
+    <End Role="Transactions" Type="Self.Transactions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Passengers">
+        <PropertyRef Name="PsID" />
+      </Principal>
+      <Dependent Role="Transactions">
+        <PropertyRef Name="Passenger" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Route">
+    <End Role="Route" Type="Self.Route" Multiplicity="0..1" />
+    <End Role="AirFare" Type="Self.AirFare" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Route">
+        <PropertyRef Name="RtID" />
+      </Principal>
+      <Dependent Role="AirFare">
+        <PropertyRef Name="Route" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_State">
+    <End Role="State" Type="Self.State" Multiplicity="1" />
+    <End Role="Contact_Details" Type="Self.Contact_Details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="State">
+        <PropertyRef Name="StID" />
+      </Principal>
+      <Dependent Role="Contact_Details">
+        <PropertyRef Name="State" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_StateOfEmployee">
+    <End Role="State" Type="Self.State" Multiplicity="0..1" />
+    <End Role="Branches" Type="Self.Branches" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="State">
+        <PropertyRef Name="StID" />
+      </Principal>
+      <Dependent Role="Branches">
+        <PropertyRef Name="State" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ARSModelStoreContainer">
+    <EntitySet Name="Admin" EntityType="Self.Admin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AirCrafts" EntityType="Self.AirCrafts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AirFare" EntityType="Self.AirFare" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Branches" EntityType="Self.Branches" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Charges" EntityType="Self.Charges" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Contact_Details" EntityType="Self.Contact_Details" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Countries" EntityType="Self.Countries" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Discounts" EntityType="Self.Discounts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Flight_Schedule" EntityType="Self.Flight_Schedule" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Passengers" EntityType="Self.Passengers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Route" EntityType="Self.Route" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="State" EntityType="Self.State" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Transactions" EntityType="Self.Transactions" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="fk_AirCraft" Association="Self.fk_AirCraft">
+      <End Role="AirCrafts" EntitySet="AirCrafts" />
+      <End Role="Flight_Schedule" EntitySet="Flight_Schedule" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Branch" Association="Self.fk_Branch">
+      <End Role="Branches" EntitySet="Branches" />
+      <End Role="Admin" EntitySet="Admin" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Charges" Association="Self.fk_Charges">
+      <End Role="Charges" EntitySet="Charges" />
+      <End Role="Transactions" EntitySet="Transactions" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Country" Association="Self.fk_Country">
+      <End Role="Countries" EntitySet="Countries" />
+      <End Role="State" EntitySet="State" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Discount" Association="Self.fk_Discount">
+      <End Role="Discounts" EntitySet="Discounts" />
+      <End Role="Transactions" EntitySet="Transactions" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Flight" Association="Self.fk_Flight">
+      <End Role="Flight_Schedule" EntitySet="Flight_Schedule" />
+      <End Role="Transactions" EntitySet="Transactions" />
+    </AssociationSet>
+    <AssociationSet Name="fk_NetFare" Association="Self.fk_NetFare">
+      <End Role="AirFare" EntitySet="AirFare" />
+      <End Role="Flight_Schedule" EntitySet="Flight_Schedule" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Passenger" Association="Self.fk_Passenger">
+      <End Role="Passengers" EntitySet="Passengers" />
+      <End Role="Transactions" EntitySet="Transactions" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Route" Association="Self.fk_Route">
+      <End Role="Route" EntitySet="Route" />
+      <End Role="AirFare" EntitySet="AirFare" />
+    </AssociationSet>
+    <AssociationSet Name="fk_State" Association="Self.fk_State">
+      <End Role="State" EntitySet="State" />
+      <End Role="Contact_Details" EntitySet="Contact_Details" />
+    </AssociationSet>
+    <AssociationSet Name="fk_StateOfEmployee" Association="Self.fk_StateOfEmployee">
+      <End Role="State" EntitySet="State" />
+      <End Role="Branches" EntitySet="Branches" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "812271374709",
+    "project_id": "reflect-12be3",
+    "storage_bucket": "reflect-12be3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812271374709:android:584a7464fb21d6e089033c",
+        "android_client_info": {
+          "package_name": "com.example.reflect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812271374709-ui60nu505hu7mapondj2c619tb9th6fl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL1pschDU2qYs_fQfQ6UEtbQCChLTfRjA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812271374709-ui60nu505hu7mapondj2c619tb9th6fl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

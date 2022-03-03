@@ -1,0 +1,12 @@
+C:\Users\dipalik\Music\VM_C#\WithoutDB1\WithoutDB1\obj\Debug\WithoutDB1.csproj.CoreCompileInputs.cache
+C:\Users\dipalik\Music\VM_C#\WithoutDB1\WithoutDB1\bin\Debug\WithoutDB1.exe.config
+C:\Users\dipalik\Music\VM_C#\WithoutDB1\WithoutDB1\bin\Debug\WithoutDB1.exe
+C:\Users\dipalik\Music\VM_C#\WithoutDB1\WithoutDB1\bin\Debug\WithoutDB1.pdb
+C:\Users\dipalik\Music\VM_C#\WithoutDB1\WithoutDB1\bin\Debug\EntityFramework.dll
+C:\Users\dipalik\Music\VM_C#\WithoutDB1\WithoutDB1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dipalik\Music\VM_C#\WithoutDB1\WithoutDB1\bin\Debug\EntityFramework.xml
+C:\Users\dipalik\Music\VM_C#\WithoutDB1\WithoutDB1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dipalik\Music\VM_C#\WithoutDB1\WithoutDB1\obj\Debug\WithoutDB1.csproj.CopyComplete
+C:\Users\dipalik\Music\VM_C#\WithoutDB1\WithoutDB1\obj\Debug\WithoutDB1.exe
+C:\Users\dipalik\Music\VM_C#\WithoutDB1\WithoutDB1\obj\Debug\WithoutDB1.pdb
+C:\Users\dipalik\Music\VM_C#\WithoutDB1\WithoutDB1\obj\Debug\WithoutDB1.csprojAssemblyReference.cache

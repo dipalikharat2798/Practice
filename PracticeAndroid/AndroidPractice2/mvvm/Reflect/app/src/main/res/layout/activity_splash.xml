@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:background="@drawable/first2">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#4FC5DCD0">
+
+        <TextView
+            android:layout_width="214dp"
+            android:layout_height="120dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="283dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginBottom="283dp"
+            android:padding="15dp"
+            android:gravity="center"
+            android:text="Reflect"
+            android:textColor="@color/purple_500"
+            android:textSize="50dp"
+            android:textStyle="normal|bold|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!--    <ImageView-->
+<!--        android:layout_width="347dp"-->
+<!--        android:layout_height="290dp"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:src="@drawable/logo1" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>

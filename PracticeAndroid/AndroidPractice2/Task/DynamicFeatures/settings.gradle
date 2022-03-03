@@ -1,0 +1,4 @@
+include ':OnInstall'
+include ':dynamicfeature'
+include ':app'
+rootProject.name = "DynamicFeatures"

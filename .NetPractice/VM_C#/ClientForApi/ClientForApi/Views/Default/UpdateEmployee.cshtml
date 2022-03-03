@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewBag.Title = "UpdateEmployee";
+}
+
+<h2>UpdateEmployee</h2>
+<form id="form1">
+    <p>
+        <label for="Id">Student ID to Update:</label>
+        <input type="text" id="Id" name="Id" />
+    </p>
+
+    <p>
+        <label for="Name">Customer Name:</label>
+        <input type="text" id="Name" name="Name" />
+    </p>
+
+    <p>
+        <label for="Marks">Marks:</label>
+        <input type="text" id="Marks" name="Marks" />
+    </p>
+
+
+    <p>
+        <input type="button" id="button1" value="Update" />
+        <span id="ResponseSpan"></span>
+    </p>
+
+</form>
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<!-- jquery code -->
+<script type="text/javascript">
+    $(function () {
+
+        $("#button1").click(
+        function () {
+
+            debugger;
+
+            //ajax code
+            $.ajax({
+                url: 'https://localhost:44334/api/Students/' + $("#Id").val(),
+                data: $("#form1").serialize(),
+                type: "put",
+                success: function (response) {
+
+                    $("#ResponseSpan").html(response);
+                    alert("record updated")
+                },
+                error: function (jqXHR, textStatus, err) {
+                    $("#ResponseSpan").html(err);
+                }
+            });
+
+        });
+
+    });
+</script>
+
+

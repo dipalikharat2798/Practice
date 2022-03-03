@@ -1,0 +1,6 @@
+<select #locale (change)='changeLocale(locale.value)'>
+  <option value='en'>English</option>
+  <option value='fr'>French</option>
+</select>
+
+<p>{{'hello' | translate }}</p>

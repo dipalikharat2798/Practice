@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewBag.Title = "Index12";
+}
+
+<h2>Index12</h2>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Index</title>
+    <script src="@Url.Content("/Scripts/jquery-3.4.1min.js")" type="text/javascript">
+    </script>
+
+    <script type="text/javascript">
+        $(function () {
+
+            $("#Button1").click(
+                function (){
+                    $("#Image1").fadeOut(500);
+                });
+
+            $("#Button2").click(
+                function () {
+                    $("#Image1").fadeIn(500);
+                });
+        });
+    </script>
+
+    <style type="text/css">
+        input[type=button] {
+            background-color: darkred;
+            color: Yellow;
+            font-family: Tahoma;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <input id="Button1" type="button" value="Hide" />
+        <input id="Button2" type="button" value="Show" />
+        <br />
+        <img src="@Url.Content("/Content/Images/img7.jpg")" id="Image1" width="500px" />
+    </div>
+</body>
+</html>
+

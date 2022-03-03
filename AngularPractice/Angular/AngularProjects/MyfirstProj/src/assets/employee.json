@@ -1,0 +1,46 @@
+[
+  {
+    "id": 101,
+    "name": "Dipali",
+    "mob": 7070343456,
+    "add": "suncity,pune",
+    "email": "dipali@gamil.com"
+  },
+  {
+    "id": 102,
+    "name": "neha",
+    "mob": 7070345456,
+    "add": "ramnagar,pune",
+    "email": "neha@gmail.com"
+
+  },
+  {
+    "id": 103,
+    "name": "preeti",
+    "mob": 7070348956,
+    "add": "rajsocity,pune",
+    "email": "preeti@gmail.com"
+  },
+  {
+    "id": 101,
+    "name": "Dipali",
+    "mob": 7070343456,
+    "add": "suncity,pune",
+    "email": "dipali@gamil.com"
+  },
+  {
+    "id": 102,
+    "name": "neha",
+    "mob": 7070345456,
+    "add": "ramnagar,pune",
+    "email": "neha@gmail.com"
+
+  },
+  {
+    "id": 103,
+    "name": "preeti",
+    "mob": 7070348956,
+    "add": "rajsocity,pune",
+    "email": "preeti@gmail.com"
+  }
+]

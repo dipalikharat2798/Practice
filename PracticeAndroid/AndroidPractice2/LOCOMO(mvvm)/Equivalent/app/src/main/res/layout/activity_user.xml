@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.UserActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:gravity="center"
+           android:layout_marginTop="40dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_height="64dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/open_sans_bold"
+            android:textSize="30sp"
+            android:background="@drawable/bgtop"
+            android:text="Welcome to Equivalent" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#170E0E0E"
+            android:orientation="vertical"
+            android:layout_margin="22dp">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/login_image"
+                    android:layout_width="218dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="55dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/hi" />
+                <TextView
+                    android:id="@+id/country_code_text1"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/open_sans_semibold"
+                   android:text="User :"
+                    android:inputType="number"
+                    android:padding="16dp"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/login_image" />
+
+                <TextView
+                    android:id="@+id/phone_number_text1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/open_sans_semibold"
+                    android:hint="User Number"
+                    android:inputType="phone"
+                    android:padding="16dp"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/country_code_text"
+                    app:layout_constraintTop_toBottomOf="@+id/login_image" />
+
+                <TextView
+                    android:id="@+id/login_desc"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginEnd="32dp"
+                    android:fontFamily="@font/open_sans_bold"
+                    android:text="Please Enter the Another\n Mobile Number"
+                    android:background="@color/white"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/phone_number_text1" />
+
+                <EditText
+                    android:id="@+id/country_code_text"
+                    android:layout_width="64dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/open_sans_semibold"
+                    android:hint="+91"
+                    android:inputType="number"
+                    android:padding="16dp"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/login_desc" />
+
+                <EditText
+                    android:id="@+id/phone_number_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/open_sans_semibold"
+                    android:hint="Your Phone Number"
+                    android:inputType="phone"
+                    android:padding="16dp"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/country_code_text"
+                    app:layout_constraintTop_toBottomOf="@+id/login_desc" />
+
+                <Button
+                    android:id="@+id/generate_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/primary_btn_bg"
+                    android:fontFamily="@font/open_sans_semibold"
+                    android:text="Confirm"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/phone_number_text" />
+
+                <TextView
+                    android:id="@+id/tvac_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="32dp"
+                    android:fontFamily="@font/open_sans_bold"
+                    android:text=""
+                    android:textColor="@color/purple_500"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/login_form_feedback"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp"
+                    android:fontFamily="@font/open_sans_bold"
+                    android:text="Working . . ."
+                    android:textColor="@android:color/holo_red_light"
+                    android:visibility="invisible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/generate_btn" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

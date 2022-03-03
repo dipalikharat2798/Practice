@@ -1,0 +1,50 @@
+﻿h1 {
+    font-family: "Montserrat";
+    font-size: 4rem;
+}
+
+#content {
+    padding: 8%;
+}
+
+#home {
+    background-color: #DCE6F0;
+}
+
+#btnwidth {
+    width: 150px;
+}
+
+.container-fluid {
+    padding: 3%;
+}
+
+#services {
+    padding: 8%;
+    text-align: center;
+    background-color: #DCE6F0;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+}
+
+#footer {
+    text-align: center;
+}
+
+.footericon i {
+    margin: 1%;
+    font-size: 2rem;
+}
+
+#contact {
+    padding: 4%;
+    text-align: center;
+    background-color: #DCE6F0;
+}
+
+.icons {
+    font-size: 4rem;
+}

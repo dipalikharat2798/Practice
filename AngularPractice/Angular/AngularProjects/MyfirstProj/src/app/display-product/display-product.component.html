@@ -1,0 +1,80 @@
+<html>
+<head>
+</head>
+<body>
+  <section>
+    <!--for demo wrap-->
+
+    <h1>Mobile Shop</h1>
+    <table>
+      <tr>
+        <td>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search..." [(ngModel)]="searchedKeyword">
+          </div>
+          <br />
+        </td>
+        <td>
+        <label>Sort : </label>
+        <select [(ngModel)]='SortbyParam'>
+          <option value="proId">Procuct Id</option>
+          <option value="proName">Procuct Name</option>
+          <option value="proPrice">Procuct Price</option>
+          <option value="proDescription">Procuct Description</option>
+        </select>
+        </td>
+      </tr>
+    </table>
+    <br />
+    <br />
+    <div class="tbl-header">
+      <table cellpadding="0" cellspacing="0" border="0">
+
+        <thead>
+          <tr appSecondDir>
+            <th>Product Id</th>
+            <th>Product Name</th>
+            <th>Product Price</th>
+            <th>Product Description</th>
+            <th>Product Image</th>
+          </tr>
+        </thead>
+      </table>
+    </div>
+    <div class="tbl-content">
+      <table cellpadding="0" cellspacing="0" border="0">
+
+        <tr *ngFor="let product of (products) | search: searchedKeyword:'proName'|sort:SortbyParam">
+          <td>
+            {{product.proId}}
+          </td>
+          <td>
+            {{product.proName}}
+          </td>
+          <td>
+            {{product.proPrice}}
+          </td>
+          <td>
+            {{product.proDescription}}
+          </td>
+          <td>
+            <img [src]='product.proImage' appSecondDir />
+          </td>
+        </tr>
+      </table>
+
+    </div>
+  </section>
+  <div class="div2" *ngIf="!products.length">
+    <h1 align="center">Product is out of stock</h1>
+  </div>
+
+
+  <!-- follow me template -->
+  <div class="maded">
+    Made by
+    Dipali
+
+  </div>
+</body>
+</html>

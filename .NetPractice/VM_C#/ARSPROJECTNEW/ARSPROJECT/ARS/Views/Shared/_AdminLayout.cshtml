@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/709718c5e6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link href="~/Content/Admincss.css" rel="stylesheet" />
+</head>
+<body>
+    <section id="home">
+        <div class="container-fluid">
+          
+            <nav class="navbar navbar-expand-lg  fixed-top">
+                <a class="navbar-brand" href="">ARSAIRLINE</a>
+
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Admin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Passenger</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="container  navbar-dark ">
+                        <h2>Admin</h2>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">UpdateInfo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">PessengerInfo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">View flights</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-10">
+                    <!--    <img src="" alt="petshome" />-->
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+    <footer id="footer">
+        <div class="footericon">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-snapchat"></i>
+        </div>
+        <p>@@Copyright airbook 2021</p>
+    </footer>
+</body>
+</html>
